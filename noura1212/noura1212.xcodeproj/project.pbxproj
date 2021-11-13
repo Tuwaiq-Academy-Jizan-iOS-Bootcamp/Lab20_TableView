@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDB2B562273E721F00179995 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB2B561273E721F00179995 /* AppDelegate.swift */; };
+		BDB2B564273E721F00179995 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB2B563273E721F00179995 /* SceneDelegate.swift */; };
+		BDB2B566273E721F00179995 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB2B565273E721F00179995 /* ViewController.swift */; };
+		BDB2B569273E721F00179995 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDB2B567273E721F00179995 /* Main.storyboard */; };
+		BDB2B56B273E722000179995 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDB2B56A273E722000179995 /* Assets.xcassets */; };
+		BDB2B56E273E722000179995 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDB2B56C273E722000179995 /* LaunchScreen.storyboard */; };
+		BDB2B579273E722000179995 /* noura1212Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB2B578273E722000179995 /* noura1212Tests.swift */; };
+		BDB2B583273E722000179995 /* noura1212UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB2B582273E722000179995 /* noura1212UITests.swift */; };
+		BDB2B585273E722000179995 /* noura1212UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB2B584273E722000179995 /* noura1212UITestsLaunchTests.swift */; };
+		BDB2B592273ED07F00179995 /* dataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB2B591273ED07F00179995 /* dataViewController.swift */; };
+		BDB2B594273ED13E00179995 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB2B593273ED13E00179995 /* TableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDB2B575273E722000179995 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDB2B556273E721F00179995 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDB2B55D273E721F00179995;
+			remoteInfo = noura1212;
+		};
+		BDB2B57F273E722000179995 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDB2B556273E721F00179995 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDB2B55D273E721F00179995;
+			remoteInfo = noura1212;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDB2B55E273E721F00179995 /* noura1212.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = noura1212.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB2B561273E721F00179995 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDB2B563273E721F00179995 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BDB2B565273E721F00179995 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDB2B568273E721F00179995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDB2B56A273E722000179995 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDB2B56D273E722000179995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDB2B56F273E722000179995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDB2B574273E722000179995 /* noura1212Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = noura1212Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB2B578273E722000179995 /* noura1212Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = noura1212Tests.swift; sourceTree = "<group>"; };
+		BDB2B57E273E722000179995 /* noura1212UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = noura1212UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB2B582273E722000179995 /* noura1212UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = noura1212UITests.swift; sourceTree = "<group>"; };
+		BDB2B584273E722000179995 /* noura1212UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = noura1212UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BDB2B591273ED07F00179995 /* dataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataViewController.swift; sourceTree = "<group>"; };
+		BDB2B593273ED13E00179995 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDB2B55B273E721F00179995 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB2B571273E722000179995 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB2B57B273E722000179995 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDB2B555273E721F00179995 = {
+			isa = PBXGroup;
+			children = (
+				BDB2B560273E721F00179995 /* noura1212 */,
+				BDB2B577273E722000179995 /* noura1212Tests */,
+				BDB2B581273E722000179995 /* noura1212UITests */,
+				BDB2B55F273E721F00179995 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDB2B55F273E721F00179995 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDB2B55E273E721F00179995 /* noura1212.app */,
+				BDB2B574273E722000179995 /* noura1212Tests.xctest */,
+				BDB2B57E273E722000179995 /* noura1212UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDB2B560273E721F00179995 /* noura1212 */ = {
+			isa = PBXGroup;
+			children = (
+				BDB2B561273E721F00179995 /* AppDelegate.swift */,
+				BDB2B563273E721F00179995 /* SceneDelegate.swift */,
+				BDB2B565273E721F00179995 /* ViewController.swift */,
+				BDB2B567273E721F00179995 /* Main.storyboard */,
+				BDB2B593273ED13E00179995 /* TableViewCell.swift */,
+				BDB2B591273ED07F00179995 /* dataViewController.swift */,
+				BDB2B56A273E722000179995 /* Assets.xcassets */,
+				BDB2B56C273E722000179995 /* LaunchScreen.storyboard */,
+				BDB2B56F273E722000179995 /* Info.plist */,
+			);
+			path = noura1212;
+			sourceTree = "<group>";
+		};
+		BDB2B577273E722000179995 /* noura1212Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BDB2B578273E722000179995 /* noura1212Tests.swift */,
+			);
+			path = noura1212Tests;
+			sourceTree = "<group>";
+		};
+		BDB2B581273E722000179995 /* noura1212UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDB2B582273E722000179995 /* noura1212UITests.swift */,
+				BDB2B584273E722000179995 /* noura1212UITestsLaunchTests.swift */,
+			);
+			path = noura1212UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDB2B55D273E721F00179995 /* noura1212 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDB2B588273E722000179995 /* Build configuration list for PBXNativeTarget "noura1212" */;
+			buildPhases = (
+				BDB2B55A273E721F00179995 /* Sources */,
+				BDB2B55B273E721F00179995 /* Frameworks */,
+				BDB2B55C273E721F00179995 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = noura1212;
+			productName = noura1212;
+			productReference = BDB2B55E273E721F00179995 /* noura1212.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDB2B573273E722000179995 /* noura1212Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDB2B58B273E722000179995 /* Build configuration list for PBXNativeTarget "noura1212Tests" */;
+			buildPhases = (
+				BDB2B570273E722000179995 /* Sources */,
+				BDB2B571273E722000179995 /* Frameworks */,
+				BDB2B572273E722000179995 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDB2B576273E722000179995 /* PBXTargetDependency */,
+			);
+			name = noura1212Tests;
+			productName = noura1212Tests;
+			productReference = BDB2B574273E722000179995 /* noura1212Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDB2B57D273E722000179995 /* noura1212UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDB2B58E273E722000179995 /* Build configuration list for PBXNativeTarget "noura1212UITests" */;
+			buildPhases = (
+				BDB2B57A273E722000179995 /* Sources */,
+				BDB2B57B273E722000179995 /* Frameworks */,
+				BDB2B57C273E722000179995 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDB2B580273E722000179995 /* PBXTargetDependency */,
+			);
+			name = noura1212UITests;
+			productName = noura1212UITests;
+			productReference = BDB2B57E273E722000179995 /* noura1212UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDB2B556273E721F00179995 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					BDB2B55D273E721F00179995 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					BDB2B573273E722000179995 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = BDB2B55D273E721F00179995;
+					};
+					BDB2B57D273E722000179995 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = BDB2B55D273E721F00179995;
+					};
+				};
+			};
+			buildConfigurationList = BDB2B559273E721F00179995 /* Build configuration list for PBXProject "noura1212" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDB2B555273E721F00179995;
+			productRefGroup = BDB2B55F273E721F00179995 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDB2B55D273E721F00179995 /* noura1212 */,
+				BDB2B573273E722000179995 /* noura1212Tests */,
+				BDB2B57D273E722000179995 /* noura1212UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDB2B55C273E721F00179995 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB2B56E273E722000179995 /* LaunchScreen.storyboard in Resources */,
+				BDB2B56B273E722000179995 /* Assets.xcassets in Resources */,
+				BDB2B569273E721F00179995 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB2B572273E722000179995 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB2B57C273E722000179995 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDB2B55A273E721F00179995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB2B594273ED13E00179995 /* TableViewCell.swift in Sources */,
+				BDB2B592273ED07F00179995 /* dataViewController.swift in Sources */,
+				BDB2B566273E721F00179995 /* ViewController.swift in Sources */,
+				BDB2B562273E721F00179995 /* AppDelegate.swift in Sources */,
+				BDB2B564273E721F00179995 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB2B570273E722000179995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB2B579273E722000179995 /* noura1212Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB2B57A273E722000179995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB2B585273E722000179995 /* noura1212UITestsLaunchTests.swift in Sources */,
+				BDB2B583273E722000179995 /* noura1212UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDB2B576273E722000179995 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDB2B55D273E721F00179995 /* noura1212 */;
+			targetProxy = BDB2B575273E722000179995 /* PBXContainerItemProxy */;
+		};
+		BDB2B580273E722000179995 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDB2B55D273E721F00179995 /* noura1212 */;
+			targetProxy = BDB2B57F273E722000179995 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDB2B567273E721F00179995 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDB2B568273E721F00179995 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDB2B56C273E722000179995 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDB2B56D273E722000179995 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDB2B586273E722000179995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDB2B587273E722000179995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDB2B589273E722000179995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = noura1212/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Noura.noura1212;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDB2B58A273E722000179995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = noura1212/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Noura.noura1212;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BDB2B58C273E722000179995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Noura.noura1212Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/noura1212.app/noura1212";
+			};
+			name = Debug;
+		};
+		BDB2B58D273E722000179995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Noura.noura1212Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/noura1212.app/noura1212";
+			};
+			name = Release;
+		};
+		BDB2B58F273E722000179995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Noura.noura1212UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = noura1212;
+			};
+			name = Debug;
+		};
+		BDB2B590273E722000179995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Noura.noura1212UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = noura1212;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDB2B559273E721F00179995 /* Build configuration list for PBXProject "noura1212" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB2B586273E722000179995 /* Debug */,
+				BDB2B587273E722000179995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDB2B588273E722000179995 /* Build configuration list for PBXNativeTarget "noura1212" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB2B589273E722000179995 /* Debug */,
+				BDB2B58A273E722000179995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDB2B58B273E722000179995 /* Build configuration list for PBXNativeTarget "noura1212Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB2B58C273E722000179995 /* Debug */,
+				BDB2B58D273E722000179995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDB2B58E273E722000179995 /* Build configuration list for PBXNativeTarget "noura1212UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB2B58F273E722000179995 /* Debug */,
+				BDB2B590273E722000179995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDB2B556273E721F00179995 /* Project object */;
+}
