@@ -10,8 +10,8 @@ import UIKit
 
 struct Dunkn {
     let name : String
-    let price: Double
-    let photo : UIImage }
+    let price: String
+    let photo : String }
 
 
 class ViewController: UIViewController {
@@ -31,12 +31,12 @@ class ViewController: UIViewController {
         
         //         Object Str [Dunkn] ..
         
-        arryDunkn.append(Dunkn.init(name: "ICED LATTE", price: 14, photo: UIImage(named: "ICED LATTE")!))
-        arryDunkn.append(Dunkn.init(name: "DONUTS", price: 30, photo: UIImage(named: "DONUTS")!))
-        arryDunkn.append(Dunkn.init(name: "Croissant Cheese", price: 7, photo: UIImage(named: "croissant-cheese")!))
-        arryDunkn.append(Dunkn.init(name: "LATTE", price: 16, photo: UIImage(named: "LATTE")!))
-        arryDunkn.append(Dunkn.init(name: "Black Coffee", price: 11, photo: UIImage(named: "Black Coffee")!))
-        arryDunkn.append(Dunkn.init(name: "Packaged Coffee", price: 46, photo: UIImage(named: "Packaged Coffe")!))
+        arryDunkn.append(Dunkn.init(name: "ICED LATTE", price: "price 14 SAR", photo: "ICED LATTE"))
+        arryDunkn.append(Dunkn.init(name: "DONUTS", price: "price 30 SAR", photo: "DONUTS"))
+        arryDunkn.append(Dunkn.init(name: "Croissant Cheese", price: "price 7 SAR", photo:  "croissant-cheese"))
+        arryDunkn.append(Dunkn.init(name: "LATTE", price: "price 16 SAR", photo: "LATTE"))
+        arryDunkn.append(Dunkn.init(name: "Black Coffee", price: "price 11 SAR", photo: "Black Coffee"))
+        arryDunkn.append(Dunkn.init(name: "Packaged Coffee", price: "price 46 SAR", photo: "Packaged Coffe"))
         
     }
     
@@ -58,13 +58,19 @@ extension ViewController: UITableViewDelegate,UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tabelView.dequeueReusableCell(withIdentifier: "cell") as! HomeTabelViewCell
-        let data = arryDunkn[indexPath.row]
-        //         function for image , title "name" and description "price" -> from cell "HomeTabelViewCell"
-        cell.setupCell(photo: data.photo, name: data.name, price: data.price)
+        let cell = tabelView.dequeueReusableCell(withIdentifier: "cell",for: indexPath)
+        var content = cell.defaultContentConfiguration()
         //        The coding sgin " > "
         cell.accessoryType = .disclosureIndicator
+        //add the conntent to the table View image , name and some information
+        content.text = arryDunkn[indexPath.row].name
+        content.secondaryText = String(arryDunkn[indexPath.row].price)
+        content.image = UIImage(named: "\(arryDunkn[indexPath.row].photo)")
+        //        size image
+        content.imageProperties.maximumSize = CGSize(width: 50, height: 50)
+        cell.contentConfiguration = content
         return cell
+        
         
     }
     //    select the row and show details in ViewControllerShow

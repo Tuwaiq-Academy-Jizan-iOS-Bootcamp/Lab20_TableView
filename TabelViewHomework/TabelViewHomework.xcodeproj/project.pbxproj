@@ -17,7 +17,6 @@
 		9A063276273EBB7100B19F11 /* TabelViewHomeworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A063275273EBB7100B19F11 /* TabelViewHomeworkUITests.swift */; };
 		9A063278273EBB7100B19F11 /* TabelViewHomeworkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A063277273EBB7100B19F11 /* TabelViewHomeworkUITestsLaunchTests.swift */; };
 		9A063287273EC33D00B19F11 /* ViewControllerShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A063286273EC33D00B19F11 /* ViewControllerShow.swift */; };
-		9A06328D273EC5FC00B19F11 /* HomeTabelViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A06328C273EC5FC00B19F11 /* HomeTabelViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +51,6 @@
 		9A063275273EBB7100B19F11 /* TabelViewHomeworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabelViewHomeworkUITests.swift; sourceTree = "<group>"; };
 		9A063277273EBB7100B19F11 /* TabelViewHomeworkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabelViewHomeworkUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9A063286273EC33D00B19F11 /* ViewControllerShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerShow.swift; sourceTree = "<group>"; };
-		9A06328C273EC5FC00B19F11 /* HomeTabelViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabelViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +105,6 @@
 				9A063256273EBB6E00B19F11 /* SceneDelegate.swift */,
 				9A063258273EBB6E00B19F11 /* ViewController.swift */,
 				9A06325A273EBB6F00B19F11 /* Main.storyboard */,
-				9A06328C273EC5FC00B19F11 /* HomeTabelViewCell.swift */,
 				9A063286273EC33D00B19F11 /* ViewControllerShow.swift */,
 				9A06325D273EBB7100B19F11 /* Assets.xcassets */,
 				9A06325F273EBB7100B19F11 /* LaunchScreen.storyboard */,
@@ -265,7 +262,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A063259273EBB6E00B19F11 /* ViewController.swift in Sources */,
-				9A06328D273EC5FC00B19F11 /* HomeTabelViewCell.swift in Sources */,
 				9A063255273EBB6E00B19F11 /* AppDelegate.swift in Sources */,
 				9A063257273EBB6E00B19F11 /* SceneDelegate.swift in Sources */,
 				9A063287273EC33D00B19F11 /* ViewControllerShow.swift in Sources */,
