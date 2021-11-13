@@ -5,30 +5,32 @@
 //  Created by يوسف جابر المالكي on 06/04/1443 AH.
 //
 
-import UIKit
 
-class detailsViewController: UIViewController {
+import Foundation
+ import UIKit
 
-    
-    
-    @IBOutlet weak var lableTableView: UILabel!
-    var textForLable = ""
-    
-    @IBOutlet weak var imageForTable: UIImageView!
-    var imageFoeCell = ""
-    
-    @IBOutlet weak var descripLable: UILabel!
-    var descripeForLable = ""
-    
-    override func viewDidLoad() {
-        
-        lableTableView.text = textForLable
-        
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-    
+ class detailsViewController: UIViewController {
 
 
-}
+     @IBOutlet var lableVS2: UILabel!
+     var textForLabel: String = ""
+
+     @IBOutlet var imageVS2: UIImageView!
+     var imageForImageView: UIImage = UIImage(named: "Thief")!
+
+
+     @IBOutlet var descriplableVS2: UILabel!
+     var descriptionForLabel: String = ""
+
+
+
+     override func viewDidLoad() {
+         lableVS2.text = textForLabel
+         imageVS2.image = imageForImageView
+         descriplableVS2.text = descriptionForLabel
+     }
+
+
+
+
+ }

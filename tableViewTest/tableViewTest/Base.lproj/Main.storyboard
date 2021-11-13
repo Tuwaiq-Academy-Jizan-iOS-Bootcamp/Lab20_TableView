@@ -41,7 +41,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="myTableView" destination="ZP5-1K-tDB" id="jjB-jd-YK8"/>
+                        <outlet property="myTableView" destination="ZP5-1K-tDB" id="m9p-9T-53G"/>
                         <segue destination="8g3-Xt-UDG" kind="show" identifier="segDetailsView" id="9qX-mP-Jsm"/>
                     </connections>
                 </viewController>
@@ -96,9 +96,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="Wg7-B0-StC"/>
                     <connections>
-                        <outlet property="descripLable" destination="jBE-ne-KLK" id="dCp-tc-xqo"/>
-                        <outlet property="imageForTable" destination="3ng-Ol-MeW" id="kRt-Vm-6q0"/>
-                        <outlet property="lableTableView" destination="bCd-4c-Euy" id="RpU-wP-Jie"/>
+                        <outlet property="descriplableVS2" destination="jBE-ne-KLK" id="8LX-YY-TT1"/>
+                        <outlet property="imageVS2" destination="3ng-Ol-MeW" id="mka-xb-Xvs"/>
+                        <outlet property="lableVS2" destination="bCd-4c-Euy" id="NXc-YZ-8yv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Uau-r8-8uS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
