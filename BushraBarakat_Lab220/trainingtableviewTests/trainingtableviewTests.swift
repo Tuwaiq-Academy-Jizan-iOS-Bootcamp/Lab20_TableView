@@ -1,14 +1,14 @@
 //
-//  Bushra_Barakat_Lab20Tests.swift
-//  Bushra Barakat_Lab20Tests
+//  trainingtableviewTests.swift
+//  trainingtableviewTests
 //
-//  Created by Bushra Barakat on 08/04/1443 AH.
+//  Created by Bushra Barakat on 09/04/1443 AH.
 //
 
 import XCTest
-@testable import Bushra_Barakat_Lab20
+@testable import trainingtableview
 
-class Bushra_Barakat_Lab20Tests: XCTestCase {
+class trainingtableviewTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

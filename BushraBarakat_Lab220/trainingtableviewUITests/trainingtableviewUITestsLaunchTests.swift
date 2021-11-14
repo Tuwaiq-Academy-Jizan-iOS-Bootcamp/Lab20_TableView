@@ -1,13 +1,13 @@
 //
-//  Bushra_Barakat_Lab20UITestsLaunchTests.swift
-//  Bushra Barakat_Lab20UITests
+//  trainingtableviewUITestsLaunchTests.swift
+//  trainingtableviewUITests
 //
-//  Created by Bushra Barakat on 08/04/1443 AH.
+//  Created by Bushra Barakat on 09/04/1443 AH.
 //
 
 import XCTest
 
-class Bushra_Barakat_Lab20UITestsLaunchTests: XCTestCase {
+class trainingtableviewUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

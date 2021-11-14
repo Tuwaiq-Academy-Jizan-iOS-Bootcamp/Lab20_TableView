@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Bushra Barakat_Lab20
+//  trainingtableview
 //
-//  Created by Bushra Barakat on 08/04/1443 AH.
+//  Created by Bushra Barakat on 09/04/1443 AH.
 //
 
 import UIKit
