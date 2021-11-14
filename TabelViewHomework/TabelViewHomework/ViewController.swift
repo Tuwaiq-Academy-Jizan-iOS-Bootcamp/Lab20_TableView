@@ -7,20 +7,17 @@
 
 import UIKit
 
-
-struct Dunkn {
-    let name : String
-    let price: String
-    let photo : String }
-
-
 class ViewController: UIViewController {
     
-    //    Variabels Mune DUNKIN 😋☕️
-    var arryDunkn = [Dunkn]()
-    //   var Select Row
-    var array = ["ICED LATTE","DONUTS","croissant-cheese", "LATTE", "Black Coffee", "Packaged Coffe"]
+    //     Var Name
+    var arrayname = ["ICED LATTE","DONUTS","croissant-cheese", "LATTE", "Black Coffee", "Packaged Coffe"]
+    //     Var image
+    var arrImg = ["ICED LATTE","DONUTS","croissant-cheese", "LATTE", "Black Coffee", "Packaged Coffe"]
+    //     var details
+    var arrprice = [ "Made with milk blended with our rich, freshly ground and brewed espresso","Our delicious donuts come in a variety of flavors and are free of artificial dyes, so there’s a favorite for everyone.","Made with our freshly products of dough and cheese ", "Made with steamed, frothy milk, blended with our rich, freshly ground and brewed espresso", "BREWED SLOW. SERVED FAST.", "Enjoy your favorite coffee at home"]
+    //     var for the select
     var nameOfTitle = ""
+    
     @IBOutlet weak var tabelView: UITableView!
     
     override func viewDidLoad() {
@@ -28,16 +25,6 @@ class ViewController: UIViewController {
         
         tabelView.delegate = self
         tabelView.dataSource = self
-        
-        //         Object Str [Dunkn] ..
-        
-        arryDunkn.append(Dunkn.init(name: "ICED LATTE", price: "price 14 SAR", photo: "ICED LATTE"))
-        arryDunkn.append(Dunkn.init(name: "DONUTS", price: "price 30 SAR", photo: "DONUTS"))
-        arryDunkn.append(Dunkn.init(name: "Croissant Cheese", price: "price 7 SAR", photo:  "croissant-cheese"))
-        arryDunkn.append(Dunkn.init(name: "LATTE", price: "price 16 SAR", photo: "LATTE"))
-        arryDunkn.append(Dunkn.init(name: "Black Coffee", price: "price 11 SAR", photo: "Black Coffee"))
-        arryDunkn.append(Dunkn.init(name: "Packaged Coffee", price: "price 46 SAR", photo: "Packaged Coffe"))
-        
     }
     
     //    Send element ViewaController to ViewControllerShow by segue
@@ -54,21 +41,31 @@ class ViewController: UIViewController {
 extension ViewController: UITableViewDelegate,UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         //        Variabels Mune DUNKIN
-        return arryDunkn.count
+        return arrayname.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tabelView.dequeueReusableCell(withIdentifier: "cell",for: indexPath)
+        
+        //        Step 1 : Create The Content
         var content = cell.defaultContentConfiguration()
-        //        The coding sgin " > "
-        cell.accessoryType = .disclosureIndicator
-        //add the conntent to the table View image , name and some information
-        content.text = arryDunkn[indexPath.row].name
-        content.secondaryText = String(arryDunkn[indexPath.row].price)
-        content.image = UIImage(named: "\(arryDunkn[indexPath.row].photo)")
+        //         Step 2 add the conntent to the table View image , name and details
+        
+        //         The content for First Title
+        content.text = arrayname[indexPath.row]
+        //        The Number Of Line For The Second Title
+        content.secondaryTextProperties.numberOfLines = 1
+        //        The Second Title
+        content.secondaryText = arrprice[indexPath.row]
+        //        The content for imgae
+        content.image = UIImage(named: arrImg[indexPath.row])
         //        size image
         content.imageProperties.maximumSize = CGSize(width: 50, height: 50)
+        //        The coding sgin " > "
+        cell.accessoryType = .disclosureIndicator
+        //         Step 3
         cell.contentConfiguration = content
+        
         return cell
         
         
@@ -76,7 +73,8 @@ extension ViewController: UITableViewDelegate,UITableViewDataSource {
     //    select the row and show details in ViewControllerShow
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        nameOfTitle = array[indexPath.row]
+        nameOfTitle = arrayname[indexPath.row]
+        
         performSegue(withIdentifier: "VC2", sender: self )
     }
 }

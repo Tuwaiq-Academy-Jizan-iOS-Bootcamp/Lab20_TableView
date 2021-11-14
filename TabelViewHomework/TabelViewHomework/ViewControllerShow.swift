@@ -9,13 +9,18 @@ import Foundation
 import UIKit
 
 class ViewControllerShow: UIViewController {
+    
     var titleName = ""
     @IBOutlet weak var titleForName: UILabel!
+    
     @IBOutlet weak var imageForDnkn: UIImageView!
+    
     @IBOutlet weak var descriptionForDnkn: UILabel!
+    var descriptionDunkn = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         titleForName.text = titleName
         switch titleName {
         case "ICED LATTE" : imageForDnkn.image = UIImage(named: "ICED LATTE")
