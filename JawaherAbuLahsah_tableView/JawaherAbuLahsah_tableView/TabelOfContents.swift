@@ -78,6 +78,7 @@ extension TabelOfContents:UITableViewDelegate,UITableViewDataSource{
         content.secondaryText = arrayCoffee[indexPath.row].subTitle
         content.image = arrayCoffee[indexPath.row].image.preparingThumbnail(of: size)
         content.secondaryTextProperties.numberOfLines = 1
+    
         //put the contents into the cell
         cell.contentConfiguration = content
         cell.accessoryType = .disclosureIndicator
@@ -121,7 +122,13 @@ extension TabelOfContents:UITableViewDelegate,UITableViewDataSource{
          */
         }
     
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return "COFFEE ☕️"
+    }
     
+    func tableView(_ tableView: UITableView, titleForFooterInSection section: Int) -> String? {
+        return "😋"
+    }
     //execute the required when pressing the row
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         sendImage = arrayCoffee[indexPath.row].image
