@@ -27,12 +27,16 @@ class TheStore: UIViewController {
         
     }
     var arrProducts = [Products]()
-   
+    
+    //1- var arrProducts : [Products]=[obj1,obj2]
+   // var arrProducts : [[Products]]=[[],[]]
+    var arrProductssection : [[Products]]=[[],[]]
     var titleProdect = ""
     var imageProdect = ""
     var descriptionProdect = ""
  
-   
+    var sections = ["H×W", "Oz"]
+
    
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,12 +44,15 @@ class TheStore: UIViewController {
         // Do any additional setup after loading the view.
         storeTableView.delegate = self
         storeTableView.dataSource = self
-        arrProducts.append(Products.init(picName: "im1", title: "Pasta Bowls", subTitle: "45 Oz", description: "Dishes are sold individually.\n Material: Sand Stoneware \n Glaze: Ivory \n Use: Microwave Safe, Dishwasher Safe, Food Safe"))
-        arrProducts.append(Products.init(picName: "im2", title: "Small Dishes", subTitle: " 6.5” d x 1.5” h", description: "Dishes are sold individually.\n Material: Sand Stoneware \n Glaze: Ivory \n Use: Microwave Safe, Dishwasher Safe, Food Safe"))
-        arrProducts.append(Products.init(picName: "im3", title: "Black and white ceramic bowl", subTitle: "8” d x 2” h", description: "The Black and White splashes Dinnerware collection is currently available in the Pasta Bowl size and Shallow/Breakfast Bowl size options."))
-        arrProducts.append(Products.init(picName: "im4", title: "Stoneware ceramic tumbler", subTitle: "6Oz", description: "Ceramic cup made from fantastic spotted clay, transparent glossy glaze inside, and the hand-painted pattern outside. The outside surface is clear clay, fantastic in touch, pure beauty."))
-        arrProducts.append(Products.init(picName: "im5", title: "Stoneware Ceramic Mug", subTitle: "4Oz", description: "Please consider when you're buying this product. This size is for a double espresso and who love coffee with a little bit of milk."))
-        arrProducts.append(Products.init(picName: "im6", title: "Vintage Mug", subTitle: "12 Oz", description: "All of the pottery at Utopia Life is food safe and handmade \n A lead free porcelain glaze is used in their creation.\n All of my pottery is food, dishwasher, and microwave safe. \n This mug is made of porcelain and is glazed by hand."))
+        //2- arrProducts.append(obj1)
+//        arrProducts.append(Products(picName: "im1", title: "Pasta Bowls", subTitle: "45 Oz", description: "Dishes are sold individually.\n Material: Sand Stoneware \n Glaze: Ivory \n Use: Microwave Safe, Dishwasher Safe, Food Safe"))
+//        arrProducts.append(Products(picName: "im2", title: "Small Dishes", subTitle: " 6.5” d x 1.5” h", description: "Dishes are sold individually.\n Material: Sand Stoneware \n Glaze: Ivory \n Use: Microwave Safe, Dishwasher Safe, Food Safe"))
+//        arrProducts.append(Products(picName: "im3", title: "Black and white ceramic bowl", subTitle: "8” d x 2” h", description: "The Black and White splashes Dinnerware collection is currently available in the Pasta Bowl size and Shallow/Breakfast Bowl size options."))
+//        arrProducts.append(Products(picName: "im4", title: "Stoneware ceramic tumbler", subTitle: "6 Oz", description: "Ceramic cup made from fantastic spotted clay, transparent glossy glaze inside, and the hand-painted pattern outside. The outside surface is clear clay, fantastic in touch, pure beauty."))
+//        arrProducts.append(Products(picName: "im5", title: "Stoneware Ceramic Mug", subTitle: "4 Oz", description: "Please consider when you're buying this product. This size is for a double espresso and who love coffee with a little bit of milk."))
+//        arrProducts.append(Products(picName: "im6", title: "Vintage Mug", subTitle: "12 Oz", description: "All of the pottery at Utopia Life is food safe and handmade \n A lead free porcelain glaze is used in their creation.\n All of my pottery is food, dishwasher, and microwave safe. \n This mug is made of porcelain and is glazed by hand."))
+        arrProductssection = [[Products(picName: "im2", title: "Small Dishes", subTitle: " 6.5” d x 1.5” h", description: "Dishes are sold individually.\n Material: Sand Stoneware \n Glaze: Ivory \n Use: Microwave Safe, Dishwasher Safe, Food Safe"),Products(picName: "im3", title: "Black and white ceramic bowl", subTitle: "8” d x 2” h", description: "The Black and White splashes Dinnerware collection is currently available in the Pasta Bowl size and Shallow/Breakfast Bowl size options.")] ,[Products(picName: "im1", title: "Pasta Bowls", subTitle: "45 Oz", description: "Dishes are sold individually.\n Material: Sand Stoneware \n Glaze: Ivory \n Use: Microwave Safe, Dishwasher Safe, Food Safe"),Products(picName: "im4", title: "Stoneware ceramic tumbler", subTitle: "6 Oz", description: "Ceramic cup made from fantastic spotted clay, transparent glossy glaze inside, and the hand-painted pattern outside. The outside surface is clear clay, fantastic in touch, pure beauty."),      Products(picName: "im5", title: "Stoneware Ceramic Mug", subTitle: "4 Oz", description: "Please consider when you're buying this product. This size is for a double espresso and who love coffee with a little bit of milk."),Products(picName: "im6", title: "Vintage Mug", subTitle: "12 Oz", description: "All of the pottery at Utopia Life is food safe and handmade \n A lead free porcelain glaze is used in their creation.\n All of my pottery is food, dishwasher, and microwave safe. \n This mug is made of porcelain and is glazed by hand.") ]]
+ 
     }
     
  
@@ -76,26 +83,43 @@ class TheStore: UIViewController {
 }
 
 extension TheStore : UITableViewDelegate, UITableViewDataSource{
+//    func numberOfSections(in tableView: UITableView) -> Int {
+//        return sections.count
+//    }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return arrProducts.count
+//        if section == 0{
+//            return arrProducts.count
+//
+//        }
+        return arrProductssection[section].count
+          
+    }
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return sections.count
     }
      
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath )
+        
         var content = cell.defaultContentConfiguration()
-        content.text = arrProducts[indexPath.row].title
-        content.secondaryText = arrProducts[indexPath.row].subTitle
-        content.image = UIImage(named: "\(arrProducts[indexPath.row].picName)")
+        content.text = arrProductssection[indexPath.section][indexPath.row].title
+        content.secondaryText = arrProductssection[indexPath.section][indexPath.row].subTitle
+        content.image = UIImage(named: "\(arrProductssection[indexPath.section][indexPath.row].picName)")//?.preparingThumbnail(of: CGSize(width: 50, height: 50))
         content.imageProperties.maximumSize = CGSize(width: 50, height: 50)
+        
+        
+        
+        
+        
         cell.accessoryType = .disclosureIndicator
-        cell.contentConfiguration=content
+         cell.contentConfiguration=content
         return cell
         
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let cellData = arrProducts[indexPath.row]
+        let cellData = arrProductssection[indexPath.section][indexPath.row]
         
           titleProdect = cellData.title
           imageProdect = cellData.picName
@@ -105,8 +129,26 @@ extension TheStore : UITableViewDelegate, UITableViewDataSource{
         
         
     }
-   
     
+    
+    //func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        //let m = tableView.backgroundColor = UIColor.brown
+//
+//        return tableView.contentView.backgroundColor = UIColor.brown
+ 
+
+  //  }
+    func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
+        (view as! UITableViewHeaderFooterView).contentView.backgroundColor = UIColor.brown
+        (view as! UITableViewHeaderFooterView).textLabel?.textColor = UIColor.white
+    }
+    
+
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+
+        return sections[section]
+
+    }
     
     
 }
