@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FEC75EC4273EACB000C9C0E7 /* TableViewConect.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC75EC3273EACB000C9C0E7 /* TableViewConect.swift */; };
 		FEC75EC6273EB45700C9C0E7 /* ViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC75EC5273EB45700C9C0E7 /* ViewControllerTwo.swift */; };
 		FEDB0F2C273D91480085CF9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDB0F2B273D91480085CF9C /* AppDelegate.swift */; };
 		FEDB0F2E273D91480085CF9C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDB0F2D273D91480085CF9C /* SceneDelegate.swift */; };
@@ -38,7 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FEC75EC3273EACB000C9C0E7 /* TableViewConect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewConect.swift; sourceTree = "<group>"; };
 		FEC75EC5273EB45700C9C0E7 /* ViewControllerTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTwo.swift; sourceTree = "<group>"; };
 		FEDB0F28273D91480085CF9C /* EhabHakami_TableViewHomeWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EhabHakami_TableViewHomeWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEDB0F2B273D91480085CF9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -107,7 +105,6 @@
 				FEDB0F2D273D91480085CF9C /* SceneDelegate.swift */,
 				FEDB0F2F273D91480085CF9C /* ViewController.swift */,
 				FEDB0F31273D91480085CF9C /* Main.storyboard */,
-				FEC75EC3273EACB000C9C0E7 /* TableViewConect.swift */,
 				FEC75EC5273EB45700C9C0E7 /* ViewControllerTwo.swift */,
 				FEDB0F34273D91490085CF9C /* Assets.xcassets */,
 				FEDB0F36273D91490085CF9C /* LaunchScreen.storyboard */,
@@ -267,7 +264,6 @@
 				FEC75EC6273EB45700C9C0E7 /* ViewControllerTwo.swift in Sources */,
 				FEDB0F30273D91480085CF9C /* ViewController.swift in Sources */,
 				FEDB0F2C273D91480085CF9C /* AppDelegate.swift in Sources */,
-				FEC75EC4273EACB000C9C0E7 /* TableViewConect.swift in Sources */,
 				FEDB0F2E273D91480085CF9C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
