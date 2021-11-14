@@ -34,13 +34,16 @@ extension ViewController:UITableViewDelegate,UITableViewDataSource{
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         var content = cell.defaultContentConfiguration()
-        
+//      to titel in cell
         content.text = arrname[indexPath.row]
+//        to description label in cell
         content.secondaryText = String(arraydesc[indexPath.row])
+//        to image in cell
         content.image = UIImage(named: "\(arrayimage[indexPath.row])")
+//        to size image in cell
         content.imageProperties.maximumSize = CGSize(width: 60, height: 60)
+//        to appear all information in cell(image,title label,subtitel label)
         cell.contentConfiguration = content
-        
         return cell
 }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
