@@ -34,6 +34,8 @@ extension ViewController:UITableViewDelegate,UITableViewDataSource{
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         var content = cell.defaultContentConfiguration()
+//        to(>)
+        cell.accessoryType =  .disclosureIndicator
 //      to titel in cell
         content.text = arrname[indexPath.row]
 //        to description label in cell
