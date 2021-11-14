@@ -15,10 +15,12 @@ class ViewContentDetails:UIViewController{
     
     var receivedImage = UIImage()
     var receivedTitel = ""
+    var receivedSupTitle = ""
     override func viewDidLoad() {
         titleLable.text = receivedTitel
         imageFromTableView.image = receivedImage
-        showDetails()
+        contentDescription.text = receivedSupTitle
+       // showDetails()
     }
     
     func showDetails(){
