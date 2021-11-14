@@ -84,6 +84,13 @@ extension ViewController : UITableViewDelegate, UITableViewDataSource{
         
         
     }
+    func tableView(_ tableView: UITableView, titleForFooterInSection section: Int) -> String? {
+        return "Injoy"
+    }
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return "Flowers"
+    }
+    
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         name = arrayOfFlowers[indexPath.row].flowerName
         details = arrayOfFlowers[indexPath.row].flowerDetails
