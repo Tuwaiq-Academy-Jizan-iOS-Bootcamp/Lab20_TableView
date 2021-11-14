@@ -31,10 +31,18 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Go") as! TableViewCell
-        cell.imageShow.image = UIImage(named: arrayFruit[indexPath.row])
-        cell.lbltitle.text = arrayFruit[indexPath.row]
-        cell.lblSub.text = "the fruits are good"
+        let imageSize = CGSize.init(width: 60, height: 60)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Go", for: indexPath)
+        var cellValue = cell.defaultContentConfiguration()
+        cellValue.text = arrayFruit[indexPath.row]
+        cellValue.image = UIImage(named: arrayFruit[indexPath.row])
+        cellValue.secondaryText = "the fruits are good"
+        cell.accessoryType = .disclosureIndicator
+        cellValue.imageProperties.maximumSize = imageSize
+        
+        
+        cell.contentConfiguration = cellValue
+        
         return cell
     }
     

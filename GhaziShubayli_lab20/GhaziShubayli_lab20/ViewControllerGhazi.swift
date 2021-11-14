@@ -10,6 +10,7 @@ import UIKit
 class ViewControllerGhazi: UIViewController {
     var reciver = ""
     
+    
     @IBOutlet weak var lastTitle: UILabel!
     @IBOutlet weak var lastImage: UIImageView!
     @IBOutlet weak var descreption: UILabel!
