@@ -1,5 +1,4 @@
 import UIKit
-
 class ClassesDetails: UIViewController {
     var nameOfClass = ""
     @IBOutlet weak var nameTitle: UILabel!
