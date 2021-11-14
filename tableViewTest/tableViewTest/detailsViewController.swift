@@ -16,7 +16,7 @@ import Foundation
      var textForLabel: String = ""
 
      @IBOutlet var imageVS2: UIImageView!
-     var imageForImageView: UIImage = UIImage(named: "Thief")!
+     var imageForImageView: UIImage = UIImage(named: "banana")!
 
 
      @IBOutlet var descriplableVS2: UILabel!

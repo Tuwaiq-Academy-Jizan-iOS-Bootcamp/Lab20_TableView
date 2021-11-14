@@ -7,7 +7,7 @@
 
 import UIKit
 
- struct player {
+ struct Fruit {
      var image: UIImage
      var name: String
      var details: String
@@ -23,17 +23,33 @@ import UIKit
      var titleContent = ""
      var descripText = "Description Text !"
      var defaultImage = UIImage(named: "knight")
-     var arrayOfContact: [player] = []
+     var arrayOfContact: [Fruit] = []
 
-     var Thief = player(image: UIImage(named: "Thief")!,
-                              name: "Thief",
-                              details: "Nothin Now  informtion for Thief🥲):")
-     var knight = player(image: UIImage(named: "knight")!,
-                              name: "KNIGHT",
-                              details: "Nothin Now informtion for Knight🤗):")
-     var wizard = player(image: UIImage(named: "Wizard")!,
-                              name: "Wizard",
-                              details: "Nothin Now informtion for Monster😃 ):")
+     var apple = Fruit(image: UIImage(named: "apple")!,
+                              name: "apple",
+                              details: "Nothin Now  informtion for apple🥲):")
+     var orange = Fruit(image: UIImage(named: "orange")!,
+                              name: "orange",
+                              details: "Nothin Now informtion for orange🤗):")
+     var banana = Fruit(image: UIImage(named: "banana")!,
+                              name: "banana",
+                              details: "Nothin Now informtion for banana😃 ):")
+     var tot = Fruit(image: UIImage(named: "tot")!,
+                              name: "tot",
+                              details: "Nothin Now informtion for tot😃 ):")
+     var lemon = Fruit(image: UIImage(named: "lemon")!,
+                              name: "banana",
+                              details: "Nothin Now informtion for lemon😃 ):")
+     var kewe = Fruit(image: UIImage(named: "kewe")!,
+                              name: "kewe",
+                              details: "Nothin Now informtion for kewe😃 ):")
+     var frola = Fruit(image: UIImage(named: "frola")!,
+                              name: "frola",
+                              details: "Nothin Now informtion for frola😃 ):")
+     
+     
+     
+     
      override func viewDidLoad() {
          super.viewDidLoad()
          // Do any additional setup after loading the view.
@@ -41,9 +57,16 @@ import UIKit
          myTableView.delegate = self
          myTableView.dataSource = self
 
-         arrayOfContact.append(Thief)
-         arrayOfContact.append(knight)
-         arrayOfContact.append(wizard)
+         arrayOfContact.append(apple)
+         arrayOfContact.append(orange)
+         arrayOfContact.append(banana)
+         arrayOfContact.append(tot)
+         arrayOfContact.append(lemon)
+         arrayOfContact.append(kewe)
+         arrayOfContact.append(frola)
+         
+         
+         
      }
 
      override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -94,10 +117,10 @@ import UIKit
      }
 
      func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-         return "My player"
+         return "My Fruit"
      }
 
      func tableView(_ tableView: UITableView, titleForFooterInSection section: Int) -> String? {
-         return "The end of my Player !!"
+         return "The end of my fruit !!"
      }
  }
