@@ -59,15 +59,18 @@ extension ViewController:UITableViewDelegate,UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: "dataCell", for: indexPath)
+    let cell = tableView.dequeueReusableCell(withIdentifier: "dataCell", for: indexPath)
        var content = cell.defaultContentConfiguration()
         content.text = jeepCar[indexPath.row].title
         content.secondaryText = jeepCar[indexPath.row].description
-        content.secondaryTextProperties.numberOfLines = 3
+        content.secondaryTextProperties.numberOfLines = 2
         let sizeImage = CGSize(width: 50, height: 50)
         content.imageProperties.maximumSize = sizeImage
         content.image = jeepCar[indexPath.row].photo
+        //or§
+        //content.image = jeepCar[indexPath.row].photo.preparingThumbnail(of: sizeImage)
         cell.contentConfiguration = content
+        //heder
         cell.accessoryType = .disclosureIndicator
 
           return cell
@@ -80,7 +83,12 @@ extension ViewController:UITableViewDelegate,UITableViewDataSource {
         performSegue(withIdentifier: "sender", sender: self)
            
         }
-
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return "Car 2020 Jeep®"
+    }
+    func tableView(_ tableView: UITableView, titleForFooterInSection section: Int) -> String? {
+        return ".. Title end !! .."
+    }
     }
 
 
