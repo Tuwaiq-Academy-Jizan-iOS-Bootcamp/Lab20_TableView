@@ -14,16 +14,18 @@ class DisplayViewController2: UIViewController {
     @IBOutlet weak var displayImageView: UIImageView!
     @IBOutlet weak var descriptionLabel: UILabel!
     //var car:Jeep?
-    var nameOfCar = ""
-    var imageOfCar = UIImage()
-    var detils = ""
+    var car:Jeep?
+//    var nameOfCar = ""
+//    var imageOfCar = UIImage()
+//    var detils = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
-       titleLb.text = nameOfCar
-        displayImageView.image = imageOfCar
-        descriptionLabel.text = detils
-
+        if let item = car {
+        titleLb.text = item.title
+        displayImageView.image = item.photo
+        descriptionLabel.text = item.description
+        }
     }
    
 }

@@ -17,6 +17,7 @@
 		2D4B99B127404B0700574820 /* Hanan_lab20UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4B99B027404B0700574820 /* Hanan_lab20UITests.swift */; };
 		2D4B99B327404B0700574820 /* Hanan_lab20UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4B99B227404B0700574820 /* Hanan_lab20UITestsLaunchTests.swift */; };
 		2D4B99C02740564600574820 /* DisplayViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4B99BF2740564600574820 /* DisplayViewController2.swift */; };
+		2DF67CBB2742725200302F23 /* Jeep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF67CBA2742725200302F23 /* Jeep.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		2D4B99B027404B0700574820 /* Hanan_lab20UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hanan_lab20UITests.swift; sourceTree = "<group>"; };
 		2D4B99B227404B0700574820 /* Hanan_lab20UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hanan_lab20UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2D4B99BF2740564600574820 /* DisplayViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayViewController2.swift; sourceTree = "<group>"; };
+		2DF67CBA2742725200302F23 /* Jeep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jeep.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +105,9 @@
 			children = (
 				2D4B998F27404B0500574820 /* AppDelegate.swift */,
 				2D4B999127404B0500574820 /* SceneDelegate.swift */,
-				2D4B999327404B0500574820 /* ViewController.swift */,
-				2D4B999527404B0500574820 /* Main.storyboard */,
-				2D4B99BF2740564600574820 /* DisplayViewController2.swift */,
+				2DF67CBC2742727A00302F23 /* Model */,
+				2DF67CBE274272BF00302F23 /* View */,
+				2DF67CBD2742728B00302F23 /* Controller */,
 				2D4B999827404B0600574820 /* Assets.xcassets */,
 				2D4B999A27404B0600574820 /* LaunchScreen.storyboard */,
 				2D4B999D27404B0600574820 /* Info.plist */,
@@ -128,6 +130,31 @@
 				2D4B99B227404B0700574820 /* Hanan_lab20UITestsLaunchTests.swift */,
 			);
 			path = Hanan_lab20UITests;
+			sourceTree = "<group>";
+		};
+		2DF67CBC2742727A00302F23 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2DF67CBA2742725200302F23 /* Jeep.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2DF67CBD2742728B00302F23 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2D4B999327404B0500574820 /* ViewController.swift */,
+				2D4B99BF2740564600574820 /* DisplayViewController2.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2DF67CBE274272BF00302F23 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2D4B999527404B0500574820 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DF67CBB2742725200302F23 /* Jeep.swift in Sources */,
 				2D4B999427404B0500574820 /* ViewController.swift in Sources */,
 				2D4B999027404B0500574820 /* AppDelegate.swift in Sources */,
 				2D4B99C02740564600574820 /* DisplayViewController2.swift in Sources */,
