@@ -17,6 +17,7 @@
 		AFE3CC2E273E705B004EF1F1 /* ArwaAlattas_lab20_tableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE3CC2D273E705B004EF1F1 /* ArwaAlattas_lab20_tableViewUITests.swift */; };
 		AFE3CC30273E705B004EF1F1 /* ArwaAlattas_lab20_tableViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE3CC2F273E705B004EF1F1 /* ArwaAlattas_lab20_tableViewUITestsLaunchTests.swift */; };
 		AFE3CC3D273E72C8004EF1F1 /* informationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE3CC3C273E72C8004EF1F1 /* informationViewController.swift */; };
+		AFE3CC4127427495004EF1F1 /* DetileOfFruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE3CC4027427495004EF1F1 /* DetileOfFruit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		AFE3CC2D273E705B004EF1F1 /* ArwaAlattas_lab20_tableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArwaAlattas_lab20_tableViewUITests.swift; sourceTree = "<group>"; };
 		AFE3CC2F273E705B004EF1F1 /* ArwaAlattas_lab20_tableViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArwaAlattas_lab20_tableViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AFE3CC3C273E72C8004EF1F1 /* informationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = informationViewController.swift; sourceTree = "<group>"; };
+		AFE3CC4027427495004EF1F1 /* DetileOfFruit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetileOfFruit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +105,9 @@
 			children = (
 				AFE3CC0C273E7059004EF1F1 /* AppDelegate.swift */,
 				AFE3CC0E273E7059004EF1F1 /* SceneDelegate.swift */,
-				AFE3CC10273E7059004EF1F1 /* ViewController.swift */,
-				AFE3CC12273E7059004EF1F1 /* Main.storyboard */,
-				AFE3CC3C273E72C8004EF1F1 /* informationViewController.swift */,
+				AFE3CC42274274C3004EF1F1 /* Model */,
+				AFE3CC4427427551004EF1F1 /* View */,
+				AFE3CC4327427518004EF1F1 /* control */,
 				AFE3CC15273E705B004EF1F1 /* Assets.xcassets */,
 				AFE3CC17273E705B004EF1F1 /* LaunchScreen.storyboard */,
 				AFE3CC1A273E705B004EF1F1 /* Info.plist */,
@@ -128,6 +130,31 @@
 				AFE3CC2F273E705B004EF1F1 /* ArwaAlattas_lab20_tableViewUITestsLaunchTests.swift */,
 			);
 			path = ArwaAlattas_lab20_tableViewUITests;
+			sourceTree = "<group>";
+		};
+		AFE3CC42274274C3004EF1F1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AFE3CC4027427495004EF1F1 /* DetileOfFruit.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AFE3CC4327427518004EF1F1 /* control */ = {
+			isa = PBXGroup;
+			children = (
+				AFE3CC10273E7059004EF1F1 /* ViewController.swift */,
+				AFE3CC3C273E72C8004EF1F1 /* informationViewController.swift */,
+			);
+			path = control;
+			sourceTree = "<group>";
+		};
+		AFE3CC4427427551004EF1F1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AFE3CC12273E7059004EF1F1 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +290,7 @@
 			files = (
 				AFE3CC11273E7059004EF1F1 /* ViewController.swift in Sources */,
 				AFE3CC0D273E7059004EF1F1 /* AppDelegate.swift in Sources */,
+				AFE3CC4127427495004EF1F1 /* DetileOfFruit.swift in Sources */,
 				AFE3CC0F273E7059004EF1F1 /* SceneDelegate.swift in Sources */,
 				AFE3CC3D273E72C8004EF1F1 /* informationViewController.swift in Sources */,
 			);
