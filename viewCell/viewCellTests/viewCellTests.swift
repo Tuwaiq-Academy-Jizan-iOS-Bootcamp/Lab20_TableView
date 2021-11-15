@@ -1,14 +1,14 @@
 //
-//  tableViewpicTests.swift
-//  tableViewpicTests
+//  viewCellTests.swift
+//  viewCellTests
 //
-//  Created by Abdulrhman Abuhyyh on 07/04/1443 AH.
+//  Created by Abdulrhman Abuhyyh on 08/04/1443 AH.
 //
 
 import XCTest
-@testable import tableViewpic
+@testable import viewCell
 
-class tableViewpicTests: XCTestCase {
+class viewCellTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

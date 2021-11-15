@@ -1,13 +1,13 @@
 //
-//  tableViewpicUITestsLaunchTests.swift
-//  tableViewpicUITests
+//  viewCellUITestsLaunchTests.swift
+//  viewCellUITests
 //
-//  Created by Abdulrhman Abuhyyh on 07/04/1443 AH.
+//  Created by Abdulrhman Abuhyyh on 08/04/1443 AH.
 //
 
 import XCTest
 
-class tableViewpicUITestsLaunchTests: XCTestCase {
+class viewCellUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
