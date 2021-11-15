@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--my Vegetables-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TableViewCell_" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="my Vegetables" id="BYZ-38-t0r" customClass="ViewController" customModule="TableViewCell_" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -40,7 +40,7 @@
                             <constraint firstItem="2lA-xc-iRq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="g8K-YG-yoB"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="oQh-Xw-jeX"/>
+                    <navigationItem key="navigationItem" title="My Vegetable" id="oQh-Xw-jeX"/>
                     <connections>
                         <outlet property="myTableView" destination="2lA-xc-iRq" id="83u-wh-GO1"/>
                         <segue destination="BFa-ZC-3z5" kind="show" identifier="GoTo" id="sJ5-ku-csU"/>
