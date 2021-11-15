@@ -17,6 +17,7 @@
 		ED0A2A692740EF9E00C33910 /* TableView_20_labUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0A2A682740EF9E00C33910 /* TableView_20_labUITests.swift */; };
 		ED0A2A6B2740EF9E00C33910 /* TableView_20_labUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0A2A6A2740EF9E00C33910 /* TableView_20_labUITestsLaunchTests.swift */; };
 		ED0A2A782740FC5C00C33910 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0A2A772740FC5C00C33910 /* ViewController2.swift */; };
+		ED707B7B274277CE00BA488C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED707B7A274277CE00BA488C /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		ED0A2A682740EF9E00C33910 /* TableView_20_labUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView_20_labUITests.swift; sourceTree = "<group>"; };
 		ED0A2A6A2740EF9E00C33910 /* TableView_20_labUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView_20_labUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		ED0A2A772740FC5C00C33910 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		ED707B7A274277CE00BA488C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				ED0A2A492740EF9C00C33910 /* SceneDelegate.swift */,
 				ED0A2A4B2740EF9C00C33910 /* ViewController.swift */,
 				ED0A2A772740FC5C00C33910 /* ViewController2.swift */,
+				ED707B7A274277CE00BA488C /* Model.swift */,
 				ED0A2A4D2740EF9C00C33910 /* Main.storyboard */,
 				ED0A2A502740EF9D00C33910 /* Assets.xcassets */,
 				ED0A2A522740EF9D00C33910 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED707B7B274277CE00BA488C /* Model.swift in Sources */,
 				ED0A2A4C2740EF9C00C33910 /* ViewController.swift in Sources */,
 				ED0A2A782740FC5C00C33910 /* ViewController2.swift in Sources */,
 				ED0A2A482740EF9C00C33910 /* AppDelegate.swift in Sources */,
