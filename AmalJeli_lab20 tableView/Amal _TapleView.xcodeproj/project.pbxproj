@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E30DBF6273E99100016F6AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E30DBF5273E99100016F6AB /* AppDelegate.swift */; };
+		1E30DBF8273E99100016F6AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E30DBF7273E99100016F6AB /* SceneDelegate.swift */; };
+		1E30DBFA273E99100016F6AB /* FamilyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E30DBF9273E99100016F6AB /* FamilyViewController.swift */; };
+		1E30DBFD273E99100016F6AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E30DBFB273E99100016F6AB /* Main.storyboard */; };
+		1E30DBFF273E99120016F6AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E30DBFE273E99120016F6AB /* Assets.xcassets */; };
+		1E30DC02273E99120016F6AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E30DC00273E99120016F6AB /* LaunchScreen.storyboard */; };
+		1E30DC0D273E99120016F6AB /* Amal__TapleViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E30DC0C273E99120016F6AB /* Amal__TapleViewTests.swift */; };
+		1E30DC17273E99120016F6AB /* Amal__TapleViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E30DC16273E99120016F6AB /* Amal__TapleViewUITests.swift */; };
+		1E30DC19273E99120016F6AB /* Amal__TapleViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E30DC18273E99120016F6AB /* Amal__TapleViewUITestsLaunchTests.swift */; };
+		1E30DC26273EB74A0016F6AB /* MemberDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E30DC25273EB74A0016F6AB /* MemberDetailsController.swift */; };
+		A53207442740840B0077E6D3 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53207432740840B0077E6D3 /* Contact.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E30DC09273E99120016F6AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E30DBEA273E99100016F6AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E30DBF1273E99100016F6AB;
+			remoteInfo = "Amal _TapleView";
+		};
+		1E30DC13273E99120016F6AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E30DBEA273E99100016F6AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E30DBF1273E99100016F6AB;
+			remoteInfo = "Amal _TapleView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E30DBF2273E99100016F6AB /* Amal _TapleView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Amal _TapleView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E30DBF5273E99100016F6AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1E30DBF7273E99100016F6AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1E30DBF9273E99100016F6AB /* FamilyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyViewController.swift; sourceTree = "<group>"; };
+		1E30DBFC273E99100016F6AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E30DBFE273E99120016F6AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E30DC01273E99120016F6AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E30DC03273E99120016F6AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E30DC08273E99120016F6AB /* Amal _TapleViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Amal _TapleViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E30DC0C273E99120016F6AB /* Amal__TapleViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amal__TapleViewTests.swift; sourceTree = "<group>"; };
+		1E30DC12273E99120016F6AB /* Amal _TapleViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Amal _TapleViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E30DC16273E99120016F6AB /* Amal__TapleViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amal__TapleViewUITests.swift; sourceTree = "<group>"; };
+		1E30DC18273E99120016F6AB /* Amal__TapleViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amal__TapleViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1E30DC25273EB74A0016F6AB /* MemberDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberDetailsController.swift; sourceTree = "<group>"; };
+		A53207432740840B0077E6D3 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E30DBEF273E99100016F6AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E30DC05273E99120016F6AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E30DC0F273E99120016F6AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E30DBE9273E99100016F6AB = {
+			isa = PBXGroup;
+			children = (
+				1E30DBF4273E99100016F6AB /* Amal _TapleView */,
+				1E30DC0B273E99120016F6AB /* Amal _TapleViewTests */,
+				1E30DC15273E99120016F6AB /* Amal _TapleViewUITests */,
+				1E30DBF3273E99100016F6AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E30DBF3273E99100016F6AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E30DBF2273E99100016F6AB /* Amal _TapleView.app */,
+				1E30DC08273E99120016F6AB /* Amal _TapleViewTests.xctest */,
+				1E30DC12273E99120016F6AB /* Amal _TapleViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E30DBF4273E99100016F6AB /* Amal _TapleView */ = {
+			isa = PBXGroup;
+			children = (
+				1E30DBF5273E99100016F6AB /* AppDelegate.swift */,
+				1E30DBF7273E99100016F6AB /* SceneDelegate.swift */,
+				1E30DBFB273E99100016F6AB /* Main.storyboard */,
+				A53207432740840B0077E6D3 /* Contact.swift */,
+				1E30DBF9273E99100016F6AB /* FamilyViewController.swift */,
+				1E30DC25273EB74A0016F6AB /* MemberDetailsController.swift */,
+				1E30DBFE273E99120016F6AB /* Assets.xcassets */,
+				1E30DC00273E99120016F6AB /* LaunchScreen.storyboard */,
+				1E30DC03273E99120016F6AB /* Info.plist */,
+			);
+			path = "Amal _TapleView";
+			sourceTree = "<group>";
+		};
+		1E30DC0B273E99120016F6AB /* Amal _TapleViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E30DC0C273E99120016F6AB /* Amal__TapleViewTests.swift */,
+			);
+			path = "Amal _TapleViewTests";
+			sourceTree = "<group>";
+		};
+		1E30DC15273E99120016F6AB /* Amal _TapleViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1E30DC16273E99120016F6AB /* Amal__TapleViewUITests.swift */,
+				1E30DC18273E99120016F6AB /* Amal__TapleViewUITestsLaunchTests.swift */,
+			);
+			path = "Amal _TapleViewUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E30DBF1273E99100016F6AB /* Amal _TapleView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E30DC1C273E99120016F6AB /* Build configuration list for PBXNativeTarget "Amal _TapleView" */;
+			buildPhases = (
+				1E30DBEE273E99100016F6AB /* Sources */,
+				1E30DBEF273E99100016F6AB /* Frameworks */,
+				1E30DBF0273E99100016F6AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Amal _TapleView";
+			productName = "Amal _TapleView";
+			productReference = 1E30DBF2273E99100016F6AB /* Amal _TapleView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E30DC07273E99120016F6AB /* Amal _TapleViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E30DC1F273E99120016F6AB /* Build configuration list for PBXNativeTarget "Amal _TapleViewTests" */;
+			buildPhases = (
+				1E30DC04273E99120016F6AB /* Sources */,
+				1E30DC05273E99120016F6AB /* Frameworks */,
+				1E30DC06273E99120016F6AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E30DC0A273E99120016F6AB /* PBXTargetDependency */,
+			);
+			name = "Amal _TapleViewTests";
+			productName = "Amal _TapleViewTests";
+			productReference = 1E30DC08273E99120016F6AB /* Amal _TapleViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1E30DC11273E99120016F6AB /* Amal _TapleViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E30DC22273E99120016F6AB /* Build configuration list for PBXNativeTarget "Amal _TapleViewUITests" */;
+			buildPhases = (
+				1E30DC0E273E99120016F6AB /* Sources */,
+				1E30DC0F273E99120016F6AB /* Frameworks */,
+				1E30DC10273E99120016F6AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E30DC14273E99120016F6AB /* PBXTargetDependency */,
+			);
+			name = "Amal _TapleViewUITests";
+			productName = "Amal _TapleViewUITests";
+			productReference = 1E30DC12273E99120016F6AB /* Amal _TapleViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E30DBEA273E99100016F6AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					1E30DBF1273E99100016F6AB = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					1E30DC07273E99120016F6AB = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 1E30DBF1273E99100016F6AB;
+					};
+					1E30DC11273E99120016F6AB = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 1E30DBF1273E99100016F6AB;
+					};
+				};
+			};
+			buildConfigurationList = 1E30DBED273E99100016F6AB /* Build configuration list for PBXProject "Amal _TapleView" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E30DBE9273E99100016F6AB;
+			productRefGroup = 1E30DBF3273E99100016F6AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E30DBF1273E99100016F6AB /* Amal _TapleView */,
+				1E30DC07273E99120016F6AB /* Amal _TapleViewTests */,
+				1E30DC11273E99120016F6AB /* Amal _TapleViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E30DBF0273E99100016F6AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E30DC02273E99120016F6AB /* LaunchScreen.storyboard in Resources */,
+				1E30DBFF273E99120016F6AB /* Assets.xcassets in Resources */,
+				1E30DBFD273E99100016F6AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E30DC06273E99120016F6AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E30DC10273E99120016F6AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E30DBEE273E99100016F6AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E30DBFA273E99100016F6AB /* FamilyViewController.swift in Sources */,
+				1E30DC26273EB74A0016F6AB /* MemberDetailsController.swift in Sources */,
+				A53207442740840B0077E6D3 /* Contact.swift in Sources */,
+				1E30DBF6273E99100016F6AB /* AppDelegate.swift in Sources */,
+				1E30DBF8273E99100016F6AB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E30DC04273E99120016F6AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E30DC0D273E99120016F6AB /* Amal__TapleViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E30DC0E273E99120016F6AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E30DC17273E99120016F6AB /* Amal__TapleViewUITests.swift in Sources */,
+				1E30DC19273E99120016F6AB /* Amal__TapleViewUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E30DC0A273E99120016F6AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E30DBF1273E99100016F6AB /* Amal _TapleView */;
+			targetProxy = 1E30DC09273E99120016F6AB /* PBXContainerItemProxy */;
+		};
+		1E30DC14273E99120016F6AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E30DBF1273E99100016F6AB /* Amal _TapleView */;
+			targetProxy = 1E30DC13273E99120016F6AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E30DBFB273E99100016F6AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E30DBFC273E99100016F6AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E30DC00273E99120016F6AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E30DC01273E99120016F6AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E30DC1A273E99120016F6AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1E30DC1B273E99120016F6AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E30DC1D273E99120016F6AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ML6RS3J5Q8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Amal _TapleView/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AMAL.Amal--TapleView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E30DC1E273E99120016F6AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ML6RS3J5Q8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Amal _TapleView/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AMAL.Amal--TapleView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1E30DC20273E99120016F6AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FQP67L8BR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AMAL.Amal--TapleViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amal _TapleView.app/Amal _TapleView";
+			};
+			name = Debug;
+		};
+		1E30DC21273E99120016F6AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FQP67L8BR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AMAL.Amal--TapleViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amal _TapleView.app/Amal _TapleView";
+			};
+			name = Release;
+		};
+		1E30DC23273E99120016F6AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FQP67L8BR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AMAL.Amal--TapleViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Amal _TapleView";
+			};
+			name = Debug;
+		};
+		1E30DC24273E99120016F6AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FQP67L8BR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AMAL.Amal--TapleViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Amal _TapleView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E30DBED273E99100016F6AB /* Build configuration list for PBXProject "Amal _TapleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E30DC1A273E99120016F6AB /* Debug */,
+				1E30DC1B273E99120016F6AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E30DC1C273E99120016F6AB /* Build configuration list for PBXNativeTarget "Amal _TapleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E30DC1D273E99120016F6AB /* Debug */,
+				1E30DC1E273E99120016F6AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E30DC1F273E99120016F6AB /* Build configuration list for PBXNativeTarget "Amal _TapleViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E30DC20273E99120016F6AB /* Debug */,
+				1E30DC21273E99120016F6AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E30DC22273E99120016F6AB /* Build configuration list for PBXNativeTarget "Amal _TapleViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E30DC23273E99120016F6AB /* Debug */,
+				1E30DC24273E99120016F6AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E30DBEA273E99100016F6AB /* Project object */;
+}
