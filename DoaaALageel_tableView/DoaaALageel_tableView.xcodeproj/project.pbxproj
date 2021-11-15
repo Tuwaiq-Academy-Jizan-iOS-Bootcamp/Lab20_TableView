@@ -17,6 +17,7 @@
 		A7273E222740F5A000ABB541 /* DoaaALageel_tableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7273E212740F5A000ABB541 /* DoaaALageel_tableViewUITests.swift */; };
 		A7273E242740F5A000ABB541 /* DoaaALageel_tableViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7273E232740F5A000ABB541 /* DoaaALageel_tableViewUITestsLaunchTests.swift */; };
 		A7273E6D27412A5600ABB541 /* description.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7273E6C27412A5600ABB541 /* description.swift */; };
+		A754B2C527427A570000C96E /* sesones.swift in Sources */ = {isa = PBXBuildFile; fileRef = A754B2C427427A570000C96E /* sesones.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		A7273E212740F5A000ABB541 /* DoaaALageel_tableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoaaALageel_tableViewUITests.swift; sourceTree = "<group>"; };
 		A7273E232740F5A000ABB541 /* DoaaALageel_tableViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoaaALageel_tableViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A7273E6C27412A5600ABB541 /* description.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = description.swift; sourceTree = "<group>"; };
+		A754B2C427427A570000C96E /* sesones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sesones.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +105,9 @@
 			children = (
 				A7273E002740F5A000ABB541 /* AppDelegate.swift */,
 				A7273E022740F5A000ABB541 /* SceneDelegate.swift */,
-				A7273E042740F5A000ABB541 /* ViewController.swift */,
-				A7273E062740F5A000ABB541 /* Main.storyboard */,
-				A7273E6C27412A5600ABB541 /* description.swift */,
+				A754B2C627427A6A0000C96E /* Modle */,
+				A754B2C0274275BF0000C96E /* View */,
+				A754B2C1274275FB0000C96E /* Controller */,
 				A7273E092740F5A000ABB541 /* Assets.xcassets */,
 				A7273E0B2740F5A000ABB541 /* LaunchScreen.storyboard */,
 				A7273E0E2740F5A000ABB541 /* Info.plist */,
@@ -128,6 +130,31 @@
 				A7273E232740F5A000ABB541 /* DoaaALageel_tableViewUITestsLaunchTests.swift */,
 			);
 			path = DoaaALageel_tableViewUITests;
+			sourceTree = "<group>";
+		};
+		A754B2C0274275BF0000C96E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A7273E062740F5A000ABB541 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A754B2C1274275FB0000C96E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A7273E6C27412A5600ABB541 /* description.swift */,
+				A7273E042740F5A000ABB541 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A754B2C627427A6A0000C96E /* Modle */ = {
+			isa = PBXGroup;
+			children = (
+				A754B2C427427A570000C96E /* sesones.swift */,
+			);
+			path = Modle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +291,7 @@
 				A7273E6D27412A5600ABB541 /* description.swift in Sources */,
 				A7273E052740F5A000ABB541 /* ViewController.swift in Sources */,
 				A7273E012740F5A000ABB541 /* AppDelegate.swift in Sources */,
+				A754B2C527427A570000C96E /* sesones.swift in Sources */,
 				A7273E032740F5A000ABB541 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

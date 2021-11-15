@@ -62,7 +62,6 @@ class ViewController: UIViewController {
 
     
     
-    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let send = segue.destination as! description
         send.lableNameSesone = titleName
