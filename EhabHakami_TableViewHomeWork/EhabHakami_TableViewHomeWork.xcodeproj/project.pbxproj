@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE01913E2742751300571967 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE01913D2742751300571967 /* Car.swift */; };
 		FEC75EC6273EB45700C9C0E7 /* ViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC75EC5273EB45700C9C0E7 /* ViewControllerTwo.swift */; };
 		FEDB0F2C273D91480085CF9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDB0F2B273D91480085CF9C /* AppDelegate.swift */; };
 		FEDB0F2E273D91480085CF9C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDB0F2D273D91480085CF9C /* SceneDelegate.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FE01913D2742751300571967 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		FEC75EC5273EB45700C9C0E7 /* ViewControllerTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTwo.swift; sourceTree = "<group>"; };
 		FEDB0F28273D91480085CF9C /* EhabHakami_TableViewHomeWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EhabHakami_TableViewHomeWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEDB0F2B273D91480085CF9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +80,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE01913B2742744E00571967 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FEDB0F2F273D91480085CF9C /* ViewController.swift */,
+				FEC75EC5273EB45700C9C0E7 /* ViewControllerTwo.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FE01913C274274B600571967 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FEDB0F31273D91480085CF9C /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FE01913F2742752B00571967 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FE01913D2742751300571967 /* Car.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		FEDB0F1F273D91480085CF9C = {
 			isa = PBXGroup;
 			children = (
@@ -103,9 +130,9 @@
 			children = (
 				FEDB0F2B273D91480085CF9C /* AppDelegate.swift */,
 				FEDB0F2D273D91480085CF9C /* SceneDelegate.swift */,
-				FEDB0F2F273D91480085CF9C /* ViewController.swift */,
-				FEDB0F31273D91480085CF9C /* Main.storyboard */,
-				FEC75EC5273EB45700C9C0E7 /* ViewControllerTwo.swift */,
+				FE01913F2742752B00571967 /* Model */,
+				FE01913B2742744E00571967 /* Controller */,
+				FE01913C274274B600571967 /* View */,
 				FEDB0F34273D91490085CF9C /* Assets.xcassets */,
 				FEDB0F36273D91490085CF9C /* LaunchScreen.storyboard */,
 				FEDB0F39273D91490085CF9C /* Info.plist */,
@@ -263,6 +290,7 @@
 			files = (
 				FEC75EC6273EB45700C9C0E7 /* ViewControllerTwo.swift in Sources */,
 				FEDB0F30273D91480085CF9C /* ViewController.swift in Sources */,
+				FE01913E2742751300571967 /* Car.swift in Sources */,
 				FEDB0F2C273D91480085CF9C /* AppDelegate.swift in Sources */,
 				FEDB0F2E273D91480085CF9C /* SceneDelegate.swift in Sources */,
 			);

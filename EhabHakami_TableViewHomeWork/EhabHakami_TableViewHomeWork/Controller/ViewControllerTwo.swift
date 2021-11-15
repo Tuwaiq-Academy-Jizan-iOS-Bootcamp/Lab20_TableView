@@ -13,16 +13,22 @@ class ViewControllerTwo: UIViewController {
     @IBOutlet weak var labelViewControlerTwo: UILabel!
     var carName = ""
     @IBOutlet weak var imageViewContrrolerTwo: UIImageView!
-    var imageCar = UIImage(named: "")
+    var imageCar = ""
     @IBOutlet weak var textViewContrrolerTwo: UITextView!
     var discrabionCar = ""
+    
+    //var selectedItem:Car?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         //تعريف الاوبجكت مع المتغير عشان نسوي عملية التعريف حق الصفحة الثانية وتنتقل البيانات
+       
+        
+        
+        
         labelViewControlerTwo.text = carName
         
-        imageViewContrrolerTwo.image = imageCar
+        //imageViewContrrolerTwo.image = imageCar
         
         textViewContrrolerTwo.text = discrabionCar
         
