@@ -1,11 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "croissant-cheese.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "croissant-cheese.png",
       "idiom" : "universal",
       "scale" : "2x"
     },

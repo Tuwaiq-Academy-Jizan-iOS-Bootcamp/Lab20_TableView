@@ -17,6 +17,7 @@
 		9A063276273EBB7100B19F11 /* TabelViewHomeworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A063275273EBB7100B19F11 /* TabelViewHomeworkUITests.swift */; };
 		9A063278273EBB7100B19F11 /* TabelViewHomeworkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A063277273EBB7100B19F11 /* TabelViewHomeworkUITestsLaunchTests.swift */; };
 		9A063287273EC33D00B19F11 /* ViewControllerShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A063286273EC33D00B19F11 /* ViewControllerShow.swift */; };
+		9A1014FF2742AC110092B796 /* Dunkn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1014FE2742AC110092B796 /* Dunkn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		9A063275273EBB7100B19F11 /* TabelViewHomeworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabelViewHomeworkUITests.swift; sourceTree = "<group>"; };
 		9A063277273EBB7100B19F11 /* TabelViewHomeworkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabelViewHomeworkUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9A063286273EC33D00B19F11 /* ViewControllerShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerShow.swift; sourceTree = "<group>"; };
+		9A1014FE2742AC110092B796 /* Dunkn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dunkn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +105,7 @@
 			children = (
 				9A063254273EBB6E00B19F11 /* AppDelegate.swift */,
 				9A063256273EBB6E00B19F11 /* SceneDelegate.swift */,
-				9A063258273EBB6E00B19F11 /* ViewController.swift */,
-				9A06325A273EBB6F00B19F11 /* Main.storyboard */,
-				9A063286273EC33D00B19F11 /* ViewControllerShow.swift */,
+				9A1014FB2742489E0092B796 /* Controller */,
 				9A06325D273EBB7100B19F11 /* Assets.xcassets */,
 				9A06325F273EBB7100B19F11 /* LaunchScreen.storyboard */,
 				9A063262273EBB7100B19F11 /* Info.plist */,
@@ -128,6 +128,41 @@
 				9A063277273EBB7100B19F11 /* TabelViewHomeworkUITestsLaunchTests.swift */,
 			);
 			path = TabelViewHomeworkUITests;
+			sourceTree = "<group>";
+		};
+		9A1014FB2742489E0092B796 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9A1015002742AC3D0092B796 /* Controller */,
+				9A1014FD2742A80A0092B796 /* Model */,
+				9A1014FC2742A7C00092B796 /* View */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9A1014FC2742A7C00092B796 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9A06325A273EBB6F00B19F11 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9A1014FD2742A80A0092B796 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9A1014FE2742AC110092B796 /* Dunkn.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9A1015002742AC3D0092B796 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9A063258273EBB6E00B19F11 /* ViewController.swift */,
+				9A063286273EC33D00B19F11 /* ViewControllerShow.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +300,7 @@
 				9A063255273EBB6E00B19F11 /* AppDelegate.swift in Sources */,
 				9A063257273EBB6E00B19F11 /* SceneDelegate.swift in Sources */,
 				9A063287273EC33D00B19F11 /* ViewControllerShow.swift in Sources */,
+				9A1014FF2742AC110092B796 /* Dunkn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

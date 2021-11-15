@@ -8,18 +8,17 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--DUNKIN-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TabelViewHomework" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="DUNKIN" id="BYZ-38-t0r" customClass="ViewController" customModule="TabelViewHomework" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="yhG-6y-rKP">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="yhG-6y-rKP">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
-                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
-                                <color key="separatorColor" red="0.67147904634475708" green="0.3779502809047699" blue="0.087374009191989899" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.94772285223007202" green="0.49877357482910156" blue="0.11169704049825668" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="142" id="aPR-pJ-ijY" customClass="HomeTabelViewCell" customModule="TabelViewHomework" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="44.5" width="414" height="142"/>
@@ -43,13 +42,13 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="tabelView" destination="yhG-6y-rKP" id="OGm-cz-Jio"/>
+                        <outlet property="tabelView" destination="yhG-6y-rKP" id="dJ5-nk-i36"/>
                         <segue destination="j3e-tV-7ed" kind="show" identifier="VC2" id="JVV-eP-wye"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2430" y="-1667"/>
+            <point key="canvasLocation" x="-2178" y="-2116"/>
         </scene>
         <!--View Controller Show-->
         <scene sceneID="1nd-ZE-rdQ">
@@ -112,21 +111,18 @@
                     <navigationItem key="navigationItem" id="SON-zC-I2P"/>
                     <connections>
                         <outlet property="descriptionForDnkn" destination="F56-cY-le5" id="K1B-LB-q4E"/>
-                        <outlet property="imageForDnkn" destination="MNm-NN-4BV" id="YUz-5d-aQZ"/>
-                        <outlet property="titleForName" destination="wMY-z8-Ox9" id="gL4-Ce-vhP"/>
+                        <outlet property="imageForDnkn" destination="MNm-NN-4BV" id="NVy-7o-xhr"/>
+                        <outlet property="titleForName" destination="wMY-z8-Ox9" id="9Nb-VF-c0q"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hy0-nh-SrZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1667" y="-1667"/>
+            <point key="canvasLocation" x="-825" y="-2116"/>
         </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemOrangeColor">
-            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

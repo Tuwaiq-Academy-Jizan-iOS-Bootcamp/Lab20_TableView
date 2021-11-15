@@ -34,3 +34,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+   return 1
+}
