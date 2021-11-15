@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="EhabHakami_TableViewHomeWork" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="3b4-hq-X33">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="separatorColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="48" id="Ht5-ep-Pkv" customClass="TableViewConect" customModule="EhabHakami_TableViewHomeWork" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="48"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ht5-ep-Pkv" id="0kZ-ky-9g0" customClass="UITableViewCellContentView">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="48"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="3b4-hq-X33" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="CaD-eQ-lJe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3b4-hq-X33" secondAttribute="bottom" id="MqW-Ep-R4d"/>
+                            <constraint firstItem="3b4-hq-X33" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="cxu-Ht-kCf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3b4-hq-X33" secondAttribute="trailing" id="is9-Ft-nf4"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="myTableViewinVc" destination="3b4-hq-X33" id="QjD-YA-8Xo"/>
+                        <segue destination="Zl5-SE-tmF" kind="show" identifier="goToViewControler" id="eaF-ZC-fln"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="82.366071428571431"/>
+        </scene>
+        <!--View Controller Two-->
+        <scene sceneID="Z5X-r7-5kZ">
+            <objects>
+                <viewController id="Zl5-SE-tmF" customClass="ViewControllerTwo" customModule="EhabHakami_TableViewHomeWork" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oTm-Um-LnY" customClass="TableViewConect" customModule="EhabHakami_TableViewHomeWork" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="101" translatesAutoresizingMaskIntoConstraints="NO" id="Wxv-1f-MKd">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r1t-z8-5jU">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="202"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="c0A-me-icU">
+                                        <rect key="frame" x="0.0" y="303" width="414" height="202"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="aHm-9h-KXg"/>
+                                        </constraints>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="0" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="y9X-OG-g00">
+                                        <rect key="frame" x="0.0" y="606" width="414" height="202"/>
+                                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="textColor" systemColor="labelColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Wgm-kk-Sxc"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Wgm-kk-Sxc" firstAttribute="bottom" secondItem="Wxv-1f-MKd" secondAttribute="bottom" id="4fc-js-b17"/>
+                            <constraint firstItem="Wgm-kk-Sxc" firstAttribute="trailing" secondItem="Wxv-1f-MKd" secondAttribute="trailing" id="AQn-0v-j81"/>
+                            <constraint firstItem="Wxv-1f-MKd" firstAttribute="top" secondItem="Wgm-kk-Sxc" secondAttribute="top" id="fbv-He-4Eq"/>
+                            <constraint firstItem="Wgm-kk-Sxc" firstAttribute="leading" secondItem="Wxv-1f-MKd" secondAttribute="leading" id="rAB-OS-FQM"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="1f4-ge-Pnf"/>
+                    <connections>
+                        <outlet property="imageViewContrrolerTwo" destination="c0A-me-icU" id="GSU-z5-2uS"/>
+                        <outlet property="labelViewControlerTwo" destination="r1t-z8-5jU" id="duS-Sf-Aaa"/>
+                        <outlet property="textViewContrrolerTwo" destination="y9X-OG-g00" id="BfQ-s5-thm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="54z-3Y-glO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="724.63768115942037" y="81.696428571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
