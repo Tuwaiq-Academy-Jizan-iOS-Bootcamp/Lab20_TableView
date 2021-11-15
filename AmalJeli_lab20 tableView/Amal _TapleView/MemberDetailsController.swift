@@ -16,9 +16,13 @@ class MemberDetailsController: UIViewController {
     var contact: Contact?
     
     override func viewDidLoad() {
+        
         super.viewDidLoad()
+//        عشان احل الاوبشنال اكتب
+//        if let واضيف متغير جديد نقوله اذا موجوده اطبعها لنا واذا مو موجوده خلها فاضيه
+//        if let contact: selectContact
         nameTitleLabel.text = contact?.title
         subTitleLabel.text = contact?.subtitle
-        memberImageView.image = UIImage(named: contact?.image ?? "")
+        memberImageView.image = UIImage(named: contact?.imagee ?? "")
     }
 }

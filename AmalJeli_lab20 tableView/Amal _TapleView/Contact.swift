@@ -8,7 +8,7 @@
 import Foundation
 
 struct Contact {
-    let image: String
+    let imagee: String
     let title: String
     let subtitle: String
 }

@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Family View Controller-->
+        <!--My Beauitful Family-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="FamilyViewController" customModule="Amal__TapleView" customModuleProvider="target" sceneMemberID="viewController">
@@ -30,7 +30,7 @@
                             <constraint firstItem="s5W-Dt-mnK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="lZC-Ig-n76"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="0DY-tt-0KW"/>
+                    <navigationItem key="navigationItem" title="My Beauitful Family" id="0DY-tt-0KW"/>
                     <connections>
                         <outlet property="tableView" destination="s5W-Dt-mnK" id="ojT-Nz-hBZ"/>
                         <segue destination="NhK-ck-N5F" kind="show" identifier="details" id="NfY-ak-nSF"/>
