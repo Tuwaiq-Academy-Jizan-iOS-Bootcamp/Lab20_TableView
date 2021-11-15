@@ -18,6 +18,7 @@
 		EE8D4C5D273FC02400900AAC /* MaramFaqih_Lab20_TableViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8D4C5C273FC02400900AAC /* MaramFaqih_Lab20_TableViewUITestsLaunchTests.swift */; };
 		EE8D4C6A273FE1C500900AAC /* TheStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8D4C69273FE1C500900AAC /* TheStore.swift */; };
 		EE8D4C6C273FE22D00900AAC /* ProductDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8D4C6B273FE22D00900AAC /* ProductDetails.swift */; };
+		EED23FCB274276E8005E4258 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED23FCA274276E8005E4258 /* Products.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		EE8D4C5C273FC02400900AAC /* MaramFaqih_Lab20_TableViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaramFaqih_Lab20_TableViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		EE8D4C69273FE1C500900AAC /* TheStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheStore.swift; sourceTree = "<group>"; };
 		EE8D4C6B273FE22D00900AAC /* ProductDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetails.swift; sourceTree = "<group>"; };
+		EED23FCA274276E8005E4258 /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +107,9 @@
 			children = (
 				EE8D4C39273FC01F00900AAC /* AppDelegate.swift */,
 				EE8D4C3B273FC01F00900AAC /* SceneDelegate.swift */,
-				EE8D4C3D273FC01F00900AAC /* ViewController.swift */,
-				EE8D4C3F273FC01F00900AAC /* Main.storyboard */,
-				EE8D4C6B273FE22D00900AAC /* ProductDetails.swift */,
-				EE8D4C69273FE1C500900AAC /* TheStore.swift */,
+				EED23FCC27427795005E4258 /* Model */,
+				EED23FC8274274AF005E4258 /* View */,
+				EED23FC9274274CA005E4258 /* Controller */,
 				EE8D4C42273FC02300900AAC /* Assets.xcassets */,
 				EE8D4C44273FC02300900AAC /* LaunchScreen.storyboard */,
 				EE8D4C47273FC02300900AAC /* Info.plist */,
@@ -131,6 +132,32 @@
 				EE8D4C5C273FC02400900AAC /* MaramFaqih_Lab20_TableViewUITestsLaunchTests.swift */,
 			);
 			path = MaramFaqih_Lab20_TableViewUITests;
+			sourceTree = "<group>";
+		};
+		EED23FC8274274AF005E4258 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EE8D4C3F273FC01F00900AAC /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EED23FC9274274CA005E4258 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EE8D4C3D273FC01F00900AAC /* ViewController.swift */,
+				EE8D4C6B273FE22D00900AAC /* ProductDetails.swift */,
+				EE8D4C69273FE1C500900AAC /* TheStore.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EED23FCC27427795005E4258 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EED23FCA274276E8005E4258 /* Products.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +294,7 @@
 				EE8D4C3E273FC01F00900AAC /* ViewController.swift in Sources */,
 				EE8D4C3A273FC01F00900AAC /* AppDelegate.swift in Sources */,
 				EE8D4C6C273FE22D00900AAC /* ProductDetails.swift in Sources */,
+				EED23FCB274276E8005E4258 /* Products.swift in Sources */,
 				EE8D4C3C273FC01F00900AAC /* SceneDelegate.swift in Sources */,
 				EE8D4C6A273FE1C500900AAC /* TheStore.swift in Sources */,
 			);
