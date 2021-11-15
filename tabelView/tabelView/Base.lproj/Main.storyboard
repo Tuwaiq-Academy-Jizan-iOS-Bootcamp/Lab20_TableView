@@ -43,7 +43,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="DjR-0u-AHh"/>
                     <connections>
-                        <outlet property="tabelView" destination="7vI-at-LL5" id="XC5-eJ-0C7"/>
+                        <outlet property="tabelView" destination="7vI-at-LL5" id="tvO-0G-1r2"/>
                         <segue destination="0kT-ey-kL5" kind="show" identifier="goToVieowControleer" id="4sT-46-8J0"/>
                     </connections>
                 </viewController>
