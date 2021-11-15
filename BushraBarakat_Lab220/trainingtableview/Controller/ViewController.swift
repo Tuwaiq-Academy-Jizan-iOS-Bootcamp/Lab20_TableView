@@ -8,11 +8,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-    var name = ""
-    var details = ""
-    var image = UIImage ()
-
-    
     
     @IBOutlet weak var tableView: UITableView!
 
