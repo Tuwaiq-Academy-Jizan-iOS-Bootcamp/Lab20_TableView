@@ -17,6 +17,7 @@
 		955B36852741270F00EEE5B0 /* TableViwe_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955B36842741270F00EEE5B0 /* TableViwe_UITests.swift */; };
 		955B36872741270F00EEE5B0 /* TableViwe_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955B36862741270F00EEE5B0 /* TableViwe_UITestsLaunchTests.swift */; };
 		955B36942741391D00EEE5B0 /* ViewContentDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955B36932741391D00EEE5B0 /* ViewContentDetails.swift */; };
+		9580BF32274271EF003355BC /* DrinkStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9580BF31274271EF003355BC /* DrinkStruct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		955B36842741270F00EEE5B0 /* TableViwe_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViwe_UITests.swift; sourceTree = "<group>"; };
 		955B36862741270F00EEE5B0 /* TableViwe_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViwe_UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		955B36932741391D00EEE5B0 /* ViewContentDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewContentDetails.swift; sourceTree = "<group>"; };
+		9580BF31274271EF003355BC /* DrinkStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkStruct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +105,10 @@
 			children = (
 				955B36632741270D00EEE5B0 /* AppDelegate.swift */,
 				955B36652741270D00EEE5B0 /* SceneDelegate.swift */,
-				955B36672741270D00EEE5B0 /* ViewController.swift */,
-				955B36692741270D00EEE5B0 /* Main.storyboard */,
-				955B36932741391D00EEE5B0 /* ViewContentDetails.swift */,
+				9580BF3427427776003355BC /* Controller */,
+				9580BF3327427757003355BC /* Model */,
 				955B366C2741270F00EEE5B0 /* Assets.xcassets */,
+				9580BF35274277AA003355BC /* View */,
 				955B366E2741270F00EEE5B0 /* LaunchScreen.storyboard */,
 				955B36712741270F00EEE5B0 /* Info.plist */,
 			);
@@ -128,6 +130,31 @@
 				955B36862741270F00EEE5B0 /* TableViwe_UITestsLaunchTests.swift */,
 			);
 			path = TableViwe.UITests;
+			sourceTree = "<group>";
+		};
+		9580BF3327427757003355BC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9580BF31274271EF003355BC /* DrinkStruct.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9580BF3427427776003355BC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				955B36672741270D00EEE5B0 /* ViewController.swift */,
+				955B36932741391D00EEE5B0 /* ViewContentDetails.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9580BF35274277AA003355BC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				955B36692741270D00EEE5B0 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9580BF32274271EF003355BC /* DrinkStruct.swift in Sources */,
 				955B36682741270D00EEE5B0 /* ViewController.swift in Sources */,
 				955B36642741270D00EEE5B0 /* AppDelegate.swift in Sources */,
 				955B36662741270D00EEE5B0 /* SceneDelegate.swift in Sources */,

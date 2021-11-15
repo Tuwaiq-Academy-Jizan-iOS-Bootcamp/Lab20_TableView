@@ -74,9 +74,12 @@ extension TabelOfContents:UITableViewDelegate,UITableViewDataSource{
         
         
         let size = CGSize(width: 80, height: 80)
+        var image = arrayCoffee[indexPath.row].image
+        image = imageResize(imageWantChange : image ,sizeChange: size)
         content.text = arrayCoffee[indexPath.row].superTitle
         content.secondaryText = arrayCoffee[indexPath.row].subTitle
-        content.image = arrayCoffee[indexPath.row].image.preparingThumbnail(of: size)
+        content.image = image
+        //arrayCoffee[indexPath.row].image.preparingThumbnail(of: size)
         content.secondaryTextProperties.numberOfLines = 1
     
         //put the contents into the cell
@@ -139,7 +142,7 @@ extension TabelOfContents:UITableViewDelegate,UITableViewDataSource{
     
     
     //this function changes the image size
-    /*func imageResize(imageWantChange:UIImage, sizeChange:CGSize)-> UIImage{
+    func imageResize(imageWantChange:UIImage, sizeChange:CGSize)-> UIImage{
         let hasAlpha = true
         let scale: CGFloat = 0.0 // Use scale factor of main screen
         // Create a Drawing Environment (which will render to a bitmap image, later)
@@ -150,7 +153,7 @@ extension TabelOfContents:UITableViewDelegate,UITableViewDataSource{
         // Clean up the Drawing Environment (created above)
         UIGraphicsEndImageContext()
         return scaledImage!
-            }*/
+            }
    /* func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 100
     }*/
