@@ -12,16 +12,15 @@ class ViewControllerTwo: UIViewController{
     @IBOutlet weak var lableFlowerName: UILabel!
     @IBOutlet weak var imageFlower: UIImageView!
     @IBOutlet weak var lableFlowerDetails: UILabel!
-    var flowerName = ""
-    var flowerDescripation = ""
-    var flowerImage = UIImage ()
+    var selectFlower: Flower?
     
     
     
     override func viewDidLoad() {
-        lableFlowerName.text = flowerName
-        lableFlowerDetails.text = flowerDescripation
-        imageFlower.image = flowerImage
-        
+       if let flower = selectFlower {
+        lableFlowerName.text = flower.flowerName
+        lableFlowerDetails.text = flower.flowerDetails
+        imageFlower.image = UIImage (named: flower.flowerImage)
+        }
     }
 }

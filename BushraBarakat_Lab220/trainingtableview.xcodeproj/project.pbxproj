@@ -17,6 +17,7 @@
 		116E4DF32741231700CD6856 /* trainingtableviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116E4DF22741231700CD6856 /* trainingtableviewUITests.swift */; };
 		116E4DF52741231700CD6856 /* trainingtableviewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116E4DF42741231700CD6856 /* trainingtableviewUITestsLaunchTests.swift */; };
 		116E4E022741383300CD6856 /* ViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116E4E012741383300CD6856 /* ViewControllerTwo.swift */; };
+		116E4E042742725300CD6856 /* FlowerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116E4E032742725200CD6856 /* FlowerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		116E4DF22741231700CD6856 /* trainingtableviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trainingtableviewUITests.swift; sourceTree = "<group>"; };
 		116E4DF42741231700CD6856 /* trainingtableviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trainingtableviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		116E4E012741383300CD6856 /* ViewControllerTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTwo.swift; sourceTree = "<group>"; };
+		116E4E032742725200CD6856 /* FlowerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +105,9 @@
 			children = (
 				116E4DD12741231500CD6856 /* AppDelegate.swift */,
 				116E4DD32741231500CD6856 /* SceneDelegate.swift */,
-				116E4DD52741231500CD6856 /* ViewController.swift */,
-				116E4DD72741231500CD6856 /* Main.storyboard */,
-				116E4E012741383300CD6856 /* ViewControllerTwo.swift */,
+				116E4E0827427E9C00CD6856 /* View */,
+				116E4E0627427E3500CD6856 /* Controller */,
+				116E4E0727427E7000CD6856 /* Model */,
 				116E4DDA2741231700CD6856 /* Assets.xcassets */,
 				116E4DDC2741231700CD6856 /* LaunchScreen.storyboard */,
 				116E4DDF2741231700CD6856 /* Info.plist */,
@@ -128,6 +130,31 @@
 				116E4DF42741231700CD6856 /* trainingtableviewUITestsLaunchTests.swift */,
 			);
 			path = trainingtableviewUITests;
+			sourceTree = "<group>";
+		};
+		116E4E0627427E3500CD6856 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				116E4DD52741231500CD6856 /* ViewController.swift */,
+				116E4E012741383300CD6856 /* ViewControllerTwo.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		116E4E0727427E7000CD6856 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				116E4E032742725200CD6856 /* FlowerViewController.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		116E4E0827427E9C00CD6856 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				116E4DD72741231500CD6856 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				116E4DD62741231500CD6856 /* ViewController.swift in Sources */,
+				116E4E042742725300CD6856 /* FlowerViewController.swift in Sources */,
 				116E4DD22741231500CD6856 /* AppDelegate.swift in Sources */,
 				116E4DD42741231500CD6856 /* SceneDelegate.swift in Sources */,
 				116E4E022741383300CD6856 /* ViewControllerTwo.swift in Sources */,
