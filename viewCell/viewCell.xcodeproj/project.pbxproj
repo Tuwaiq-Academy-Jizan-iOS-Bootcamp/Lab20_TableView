@@ -18,6 +18,7 @@
 		BA6A934D2740458700D38677 /* viewCellUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6A934C2740458700D38677 /* viewCellUITestsLaunchTests.swift */; };
 		BA6A935C274048F700D38677 /* TableViewCellApple.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6A935B274048F700D38677 /* TableViewCellApple.swift */; };
 		BA6A935E27404A4D00D38677 /* ViewControllerDataEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6A935D27404A4D00D38677 /* ViewControllerDataEntry.swift */; };
+		BAC18E642742728900C44441 /* AppleSales.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC18E632742728900C44441 /* AppleSales.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		BA6A934C2740458700D38677 /* viewCellUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewCellUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BA6A935B274048F700D38677 /* TableViewCellApple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellApple.swift; sourceTree = "<group>"; };
 		BA6A935D27404A4D00D38677 /* ViewControllerDataEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDataEntry.swift; sourceTree = "<group>"; };
+		BAC18E632742728900C44441 /* AppleSales.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleSales.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +107,9 @@
 			children = (
 				BA6A93292740458600D38677 /* AppDelegate.swift */,
 				BA6A932B2740458600D38677 /* SceneDelegate.swift */,
-				BA6A932D2740458600D38677 /* ViewController.swift */,
-				BA6A932F2740458600D38677 /* Main.storyboard */,
-				BA6A935B274048F700D38677 /* TableViewCellApple.swift */,
-				BA6A935D27404A4D00D38677 /* ViewControllerDataEntry.swift */,
+				BA8CC4462742B3E8003CDD0C /* Model */,
+				BA8CC4472742B41A003CDD0C /* View */,
+				BA8CC4482742B43B003CDD0C /* controller */,
 				BA6A93322740458700D38677 /* Assets.xcassets */,
 				BA6A93342740458700D38677 /* LaunchScreen.storyboard */,
 				BA6A93372740458700D38677 /* Info.plist */,
@@ -131,6 +132,32 @@
 				BA6A934C2740458700D38677 /* viewCellUITestsLaunchTests.swift */,
 			);
 			path = viewCellUITests;
+			sourceTree = "<group>";
+		};
+		BA8CC4462742B3E8003CDD0C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BAC18E632742728900C44441 /* AppleSales.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BA8CC4472742B41A003CDD0C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BA6A932F2740458600D38677 /* Main.storyboard */,
+				BA6A935B274048F700D38677 /* TableViewCellApple.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BA8CC4482742B43B003CDD0C /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				BA6A932D2740458600D38677 /* ViewController.swift */,
+				BA6A935D27404A4D00D38677 /* ViewControllerDataEntry.swift */,
+			);
+			path = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA6A935E27404A4D00D38677 /* ViewControllerDataEntry.swift in Sources */,
+				BAC18E642742728900C44441 /* AppleSales.swift in Sources */,
 				BA6A935C274048F700D38677 /* TableViewCellApple.swift in Sources */,
 				BA6A932E2740458600D38677 /* ViewController.swift in Sources */,
 				BA6A932A2740458600D38677 /* AppDelegate.swift in Sources */,
