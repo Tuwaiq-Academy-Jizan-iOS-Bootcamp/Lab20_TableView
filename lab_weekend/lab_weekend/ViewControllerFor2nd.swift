@@ -12,20 +12,26 @@ import UIKit
 class ViewControllerFor2nd: UIViewController{
     
     @IBOutlet weak var topicTitle: UILabel!
-    var theTopic = ""
+//    var theTopic = ""
     @IBOutlet weak var imageView: UIImageView!
-    var theImage = UIImage(named: "")
+//    var theImage = ""
     @IBOutlet weak var describeTitle: UILabel!
-    var theDescription = ""
-    
+//    var theDescription = ""
+    var selectedItem:ContentElement?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        topicTitle.text = theTopic
-        describeTitle.text = theDescription
- 
-        imageView.image = theImage
         
+        if let item = selectedItem {
+//            itemImageView.image = UIImage(named: item.imageName)
+            topicTitle.text = item.theName
+            describeTitle.text = item.theDetails
+//        topicTitle.text = theTopic
+//        describeTitle.text = theDescription
+//
+//        imageView.image = theImage
+//
  
+    }
     }
 }
