@@ -22,12 +22,6 @@ class ViewController: UIViewController {
        AppleSale(name: "AirPods Pro", image: "AirPods Pro" , description: "design conventions of the more expensive AirPods Pro, including their shorter stems and horizontally aligned charging case"),
         AppleSale(name: "Apple Watch", image:"Apple Watch", description: "Apple Watch Series 6 (GPS, 44mm) - Blue Aluminium Case with Deep Navy Sport Band")]
         ]
-
-
-//    var nameDevice = ""
-//    var imageDeviceInsert = ""
-//    var descDevice = ""
-//
     @IBOutlet weak var tableViewMySela: UITableView!{
     didSet {
      tableViewMySela.delegate = self
@@ -41,26 +35,10 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-//        arrayDevices.append(macBook)
-//        arrayDevices.append(macBookPro)
-//        arrayDevices.append(iMac)
-//        arrayDevices.append(iPad)
-//        arrayDevices.append(iPadPro)
-//        arrayDevices.append(appleTV)
-//        arrayDevices.append(iPhone)
-//        arrayDevices.append(airTag)
-//        arrayDevices.append(airPods)
-//        arrayDevices.append(whatch)
-        
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let dataMoving = segue.destination as! ViewControllerDataEntry
         dataMoving.selectedSale = selectedSale
-//        dataMoving.theNameOfDevice = nameDevice
-//        dataMoving.theImageOfDevice = imageDeviceInsert
-//        dataMoving.theDisc = descDevice
-//        return sales[section].count
     }
 }
 extension ViewController:  UITableViewDataSource {
@@ -68,36 +46,21 @@ extension ViewController:  UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return sales[section].count
     }
-    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         var content = cell.defaultContentConfiguration()
         cell.accessoryType = .disclosureIndicator
+        content.secondaryTextProperties.numberOfLines = 2
         content.text = sales[indexPath.section][indexPath.row].name
         content.secondaryText = sales[indexPath.section][indexPath.row].description
         let images = UIImage(named: sales[indexPath.section][indexPath.row].image)
         content.image = images
         content.imageProperties.maximumSize = CGSize(width: 60, height: 60)
         
-//        content.text = arrayDevices[indexPath.row].name
-//        content.secondaryTextProperties.numberOfLines = 2
-//        content.secondaryText = arrayDevices[indexPath.row].description
-//        let imageSaiz = CGSize.init(width: 45, height: 45)
-//        content.imageProperties.maximumSize = imageSaiz
-//        content.image = arrayDevices[indexPath.row].image
-//
         cell.contentConfiguration = content
         return cell
     }
 }
-//    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//        nameDevice = arrayDevices[indexPath.row].name
-//        imageDeviceInsert = arrayDevices[indexPath.row].image
-//        descDevice = arrayDevices[indexPath.row].description
-    
-        
-//performSegue(withIdentifier: "dataVC", sender: self)
-
 extension ViewController: UITableViewDelegate {
     func numberOfSections(in tableView: UITableView) -> Int {
         return sales.count
