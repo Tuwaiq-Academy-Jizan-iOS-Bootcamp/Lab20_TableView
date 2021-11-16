@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--MY berry-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="tabelView" customModuleProvider="target" sceneMemberID="viewController">
@@ -41,7 +41,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7vI-at-LL5" secondAttribute="trailing" id="ygX-zk-65W"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="DjR-0u-AHh"/>
+                    <navigationItem key="navigationItem" title="MY berry" id="DjR-0u-AHh"/>
                     <connections>
                         <outlet property="tabelView" destination="7vI-at-LL5" id="tvO-0G-1r2"/>
                         <segue destination="0kT-ey-kL5" kind="show" identifier="goToVieowControleer" id="4sT-46-8J0"/>
