@@ -17,6 +17,7 @@
 		F88BEFCA273FB41A0032EF40 /* Lab_20UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88BEFC9273FB41A0032EF40 /* Lab_20UITests.swift */; };
 		F88BEFCC273FB41A0032EF40 /* Lab_20UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88BEFCB273FB41A0032EF40 /* Lab_20UITestsLaunchTests.swift */; };
 		F88BEFD9273FD5FE0032EF40 /* viewcontrollerTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88BEFD8273FD5FE0032EF40 /* viewcontrollerTV.swift */; };
+		F88BF01727427AFD0032EF40 /* viewcontrollerpoets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88BF01627427AFD0032EF40 /* viewcontrollerpoets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		F88BEFC9273FB41A0032EF40 /* Lab_20UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab_20UITests.swift; sourceTree = "<group>"; };
 		F88BEFCB273FB41A0032EF40 /* Lab_20UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab_20UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F88BEFD8273FD5FE0032EF40 /* viewcontrollerTV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewcontrollerTV.swift; sourceTree = "<group>"; };
+		F88BF01627427AFD0032EF40 /* viewcontrollerpoets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewcontrollerpoets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +105,7 @@
 			children = (
 				F88BEFA8273FB4190032EF40 /* AppDelegate.swift */,
 				F88BEFAA273FB4190032EF40 /* SceneDelegate.swift */,
-				F88BEFAC273FB4190032EF40 /* ViewController.swift */,
-				F88BEFAE273FB4190032EF40 /* Main.storyboard */,
-				F88BEFD8273FD5FE0032EF40 /* viewcontrollerTV.swift */,
+				F88BF0182742909C0032EF40 /* Folder */,
 				F88BEFB1273FB41A0032EF40 /* Assets.xcassets */,
 				F88BEFB3273FB41A0032EF40 /* LaunchScreen.storyboard */,
 				F88BEFB6273FB41A0032EF40 /* Info.plist */,
@@ -128,6 +128,25 @@
 				F88BEFCB273FB41A0032EF40 /* Lab_20UITestsLaunchTests.swift */,
 			);
 			path = "Lab 20UITests";
+			sourceTree = "<group>";
+		};
+		F88BF0182742909C0032EF40 /* Folder */ = {
+			isa = PBXGroup;
+			children = (
+				F88BEFAE273FB4190032EF40 /* Main.storyboard */,
+				F88BF019274290D50032EF40 /* Modle */,
+			);
+			name = Folder;
+			sourceTree = "<group>";
+		};
+		F88BF019274290D50032EF40 /* Modle */ = {
+			isa = PBXGroup;
+			children = (
+				F88BEFD8273FD5FE0032EF40 /* viewcontrollerTV.swift */,
+				F88BF01627427AFD0032EF40 /* viewcontrollerpoets.swift */,
+				F88BEFAC273FB4190032EF40 /* ViewController.swift */,
+			);
+			path = Modle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F88BF01727427AFD0032EF40 /* viewcontrollerpoets.swift in Sources */,
 				F88BEFAD273FB4190032EF40 /* ViewController.swift in Sources */,
 				F88BEFA9273FB4190032EF40 /* AppDelegate.swift in Sources */,
 				F88BEFD9273FD5FE0032EF40 /* viewcontrollerTV.swift in Sources */,
